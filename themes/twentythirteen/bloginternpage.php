@@ -1,6 +1,7 @@
 <?php
 /*
 Template Name:Intern Page
+Comment is entered
  */
 ?>
 <!DOCTYPE html>
