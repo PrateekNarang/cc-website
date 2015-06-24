@@ -51,7 +51,7 @@ Template Name:Intern Page
                  <div class="col-lg-1 col-md-1 hidden-sm hidden-xs ile">
                   </div>
                <div class="col-lg-10 col-md-10 col-sm-12  col-xs-12" >
-                   <img src="http://localhost/wordpress/wp-content/themes/twentyfifteen/images/one.jpg" class="image img-responsive">
+                   <img src="http://localhost/wordpress/wp-content/themes/twentythirteen/images/one.jpg" class="image img-responsive">
               </div>  
                  <div class="col-lg-1 col-md-1 hidden-sm hidden-xs ile">
                   </div>
@@ -115,7 +115,7 @@ Template Name:Intern Page
                         <div class="hidden-lg hidden-md col-sm-1 col-xs-1 hgt3"></div>
                         <div class="col-md-12 col-lg-12 hidden-xs hidden-sm hg2">    
                             <div class="details">
-                                <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentyfifteen/images/abhi.jpg);">
+                                <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/abhi.jpg);">
                                 </div>
                         <div id="square">
                             <div class="texts">
@@ -125,7 +125,7 @@ Template Name:Intern Page
                             </div></div>                
                     <div class="hidden-lg hidden-md col-sm-10 col-xs-10 hg2 ha"> 
                                 <div class="details">
-                                    <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentyfifteen/images/abhi.jpg);">
+                                    <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/abhi.jpg);">
                                     </div>
                      <div id="square">
                          <div class="texts">
@@ -158,7 +158,7 @@ Template Name:Intern Page
                         <div class="hidden-lg hidden-md col-sm-1 col-xs-1 hgt3"></div>
                         <div class="col-md-12 col-lg-12 hidden-sm hidden-xs hg22">
                         <div class="details2">
-                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentyfifteen/images/two.jpg);">
+                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/two.jpg);">
                             </div>
                         <div id="square">
                             <div class="texts">
@@ -169,7 +169,7 @@ Template Name:Intern Page
                         </div>
                          <div class="hidden-lg hidden-md col-sm-10 col-xs-10 hg22s">
                           <div class="details2">
-                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentyfifteen/images/two.jpg);">
+                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/two.jpg);">
                               </div>
                      <div id="square">
                          <div class="texts">
@@ -198,7 +198,7 @@ Template Name:Intern Page
                         <div class="hidden-lg hidden-md col-sm-1 col-xs-1 hgt3"></div>
                         <div class="col-md-12 col-lg-12 hidden-xs hidden-sm hg2">    
                             <div class="details">
-                                <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentyfifteen/images/three.jpg);">
+                                <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/three.jpg);">
                                 </div>
                         <div id="square">
                             <div class="texts">
@@ -208,7 +208,7 @@ Template Name:Intern Page
                             </div></div>                
                     <div class="hidden-lg hidden-md col-sm-10 col-xs-10 hg2 ha"> 
                                 <div class="details">
-                                    <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentyfifteen/images/three.jpg);">
+                                    <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/three.jpg);">
                                     </div>
                      <div id="square">
                          <div class="texts">
@@ -240,7 +240,7 @@ Template Name:Intern Page
                         <div class="hidden-lg hidden-md col-sm-1 col-xs-1 hgt3"></div>
                         <div class="col-md-12 col-lg-12 hidden-sm hidden-xs hg22">
                         <div class="details2">
-                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentyfifteen/images/four.jpg);">
+                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/four.jpg);">
                             </div>
                         <div id="square">
                             <div class="texts">
@@ -251,7 +251,7 @@ Template Name:Intern Page
                         </div>
                          <div class="hidden-lg hidden-md col-sm-10 col-xs-10 hg22s">
                           <div class="details2">
-                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentyfifteen/images/four.jpg);">
+                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/four.jpg);">
                               </div>
                      <div id="square">
                          <div class="texts">
@@ -279,7 +279,7 @@ Template Name:Intern Page
                         <div class="hidden-lg hidden-md col-sm-1 col-xs-1 hgt3"></div>
                         <div class="col-md-12 col-lg-12 hidden-xs hidden-sm hg2">    
                             <div class="details">
-                                <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentyfifteen/images/five.jpg);">
+                                <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/five.jpg);">
                                 </div>
                         <div id="square">
                             <div class="texts">
@@ -289,7 +289,7 @@ Template Name:Intern Page
                             </div></div>                
                     <div class="hidden-lg hidden-md col-sm-10 col-xs-10 hg2 ha"> 
                                 <div class="details">
-                                    <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentyfifteen/images/five.jpg);">
+                                    <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/five.jpg);">
                                     </div>
                      <div id="square"><div class="texts">
                                 Samreen</div>
