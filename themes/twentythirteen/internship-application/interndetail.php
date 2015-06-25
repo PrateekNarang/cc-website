@@ -2,7 +2,7 @@
 /*
 Template Name: internship-application
 */
-$wp_path = 'wp-content/themes/twentythirteen/internship-application';
+$wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen/internship-application';
 ?>
 <html>
 
