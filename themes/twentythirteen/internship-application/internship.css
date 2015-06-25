@@ -1,0 +1,349 @@
+/*
+Theme Name: Twenty Thirteen
+Description: Internship application
+Author: Aishwarya
+Template: internship-application
+
+Version: 1.0
+*/
+
+@import url("http://127.0.0.1:9999/phpmyadmin/wordpress/wp-content/themes/twentythirteen/internship.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+
+
+
+
+
+#cow{
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-size: 2.4em;
+font-weight:75;
+    position: relative;
+    top: 0px;   
+    text-align: center;
+
+}
+
+#options{
+ 
+  font-family: Futura W01 Light;
+font-size: 1.4em;
+  line-height: 1.42857143;
+    text-align: center;
+      
+
+
+}
+
+#detailtab{
+
+position: relative;
+    top: 10px;}
+
+
+#back1{
+
+   max-width: 100%;
+    width: 100%;
+    
+    height:100%;
+   
+    
+    
+}
+
+#tag{
+
+position: relative;
+    top: 175px;
+    
+
+}
+
+#heading1{
+position: relative;
+    top: 130px;
+    
+    
+   
+
+}
+
+
+
+#internshiphead{
+ 
+ 
+  position: relative;
+    left: -20px;
+    width: 95%;
+  
+
+}
+
+@media screen and (max-width:1500px){ .applyheading { 
+width: 700px;
+    position:absolute;
+    left:310px;
+    
+
+}}
+
+
+
+
+@media screen and (max-width:1345px){ .applyheading { 
+width: 700px;
+    position:absolute;
+    left:250px;
+    
+
+}}
+@media screen and (max-width:1100px){ .applyheading { 
+width: 500px;
+    position: absolute;
+    left: 200px;
+        
+
+    
+    
+
+}}
+
+@media screen and (max-width:768px){ .applyheading { 
+width: 400px;
+    position: absolute;
+    left: 120px;
+
+}}
+
+@media screen and (max-width:500px){ .applyheading { 
+width: 300px;
+    position: absolute;
+    left: 60px;
+  
+
+}}
+@media screen and (max-width:500px){ .applyheading { 
+width: 300px;
+ 
+    position: relative;
+    left: 20px;
+
+}}
+
+@media screen and (max-width:1345px){ .internheading { 
+width: 100%;
+    position: relative;
+    left:50px;
+    
+
+}}
+@media screen and (max-width:1100px){ .internheading { 
+     widows: 98%;
+    position: relative;
+    left: 0px;
+        
+
+    
+    
+
+}}
+
+@media screen and (max-width:768px){ .internheading { 
+     widows: 95%;
+    position: relative;
+    left: 0px;
+        
+
+    
+    
+
+}}
+
+@media screen and (max-width:320px){ .internheading { 
+     widows: 95%;
+    position: relative;
+    left: 0px;
+        
+
+    
+    
+
+}}
+
+
+
+
+
+
+/* responsive text queries */
+@media screen and (max-width: 992px) {
+  p,.btn,input,div,span,h4,.formfonts, .formtag {
+    font-size: 90%;
+  }
+  h1 {
+    font-size: 24px;  
+  }
+  h2 {
+    font-size: 22px;  
+  }
+  h3 {
+    font-size: 18px;  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p,.btn,input,div,span,h3,.formfonts, .formtag {
+    font-size: 85%;
+  }
+  h1 {
+    font-size: 20px;  
+  }
+  h2 {
+    font-size: 18px;  
+  }
+  h3 {
+    font-size: 16px;  
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p,.btn,input,div,span,h4, .formfonts, .formtag {
+    font-size: 75%
+  }
+  h1 {
+    font-size: 20px;  
+  }
+  h2 {
+    font-size: 18px;  
+  }
+  h3 {
+    font-size: 16px;  
+  }
+}
+
+
+#page2content{
+  background-color: gainsboro;
+    font-size: 1.3em;
+    border: 2px solid #FAFAFA;
+    padding: 40px; 
+    width: 700px;
+    height: 600px; 
+    top: 170px;
+      display: block;
+ 
+
+}
+#app{
+position: relative;
+    left: 20px;
+}
+
+#det{
+position: relative;
+left: -20px;}
+
+
+#page3{
+background-image: url(2.jpg);
+width: 1450px;
+height: 1200px;
+    margin-bottom: 1px;
+position: relative;
+top:290px;
+    min-width: 100%;
+    
+    
+}
+
+.r{
+
+    height: 100px;
+    
+}
+
+
+
+#applytab{
+position: relative;
+    top: 70px;
+ max-width:100%;
+  
+
+}
+
+#internshipform{
+
+ background-color: gainsboro;
+    font-size: 20px;
+    border: 2px solid #FAFAFA;
+    padding: 40px; 
+    width: 650px;
+    height: 900px; 
+    position: relative;
+    top: -750px;
+    align-content: center;
+    
+
+}
+
+#last{
+position: relative;
+    top: -34px;
+    left: 285px;
+}
+
+.formcontrol-name{
+display: block;
+  width: 50%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    
+}
+
+.formfonts{
+font-family: Futura W01 Light;
+
+}
+
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+
+h5{
+    font-size: 1.4em;
+}
+
+#submit{
+
+border-radius: 20px;
+
+}
+html { height: 100%; }
+body { min-height: 100px;}
+
+
+
