@@ -11,12 +11,12 @@ Comment is entered
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Intern lounge</title>
-    <link href="http://localhost/wordpress/wp-content/themes/twentyfifteen/css/bootstrap.min.css" rel="stylesheet">
-      <link href="http://localhost/wordpress/wp-content/themes/twentyfifteen/css/index.css" rel="stylesheet">
+    <link href="http://coloredcow.in/wp-content/themes/twentyfifteen/css/bootstrap.min.css" rel="stylesheet">
+      <link href="http://coloredcow.in/wp-content/themes/twentyfifteen/css/index.css" rel="stylesheet">
   </head>
   <body link="black">
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="http://localhost/wordpress/wp-content/themes/twentyfifteen/js/bootstrap.min.js"></script>
+    <script src="http://coloredcow.in/wp-content/themes/twentyfifteen/js/bootstrap.min.js"></script>
        <div class="container">
              <div class="row">
                   <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs cce">
@@ -52,7 +52,7 @@ Comment is entered
                  <div class="col-lg-1 col-md-1 hidden-sm hidden-xs ile">
                   </div>
                <div class="col-lg-10 col-md-10 col-sm-12  col-xs-12" >
-                   <img src="http://localhost/wordpress/wp-content/themes/twentythirteen/images/one.jpg" class="image img-responsive">
+                   <img src="http://coloredcow.in/wp-content/themes/twentythirteen/images/one.jpg" class="image img-responsive">
               </div>  
                  <div class="col-lg-1 col-md-1 hidden-sm hidden-xs ile">
                   </div>
@@ -116,7 +116,7 @@ Comment is entered
                         <div class="hidden-lg hidden-md col-sm-1 col-xs-1 hgt3"></div>
                         <div class="col-md-12 col-lg-12 hidden-xs hidden-sm hg2">    
                             <div class="details">
-                                <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/abhi.jpg);">
+                                <div class="circle" style="background-image: url(http://coloredcow.in/wp-content/themes/twentythirteen/images/abhi.jpg);">
                                 </div>
                         <div id="square">
                             <div class="texts">
@@ -126,7 +126,7 @@ Comment is entered
                             </div></div>                
                     <div class="hidden-lg hidden-md col-sm-10 col-xs-10 hg2 ha"> 
                                 <div class="details">
-                                    <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/abhi.jpg);">
+                                    <div class="circle" style="background-image: url(http://coloredcow.in/wp-content/themes/twentythirteen/images/abhi.jpg);">
                                     </div>
                      <div id="square">
                          <div class="texts">
@@ -159,7 +159,7 @@ Comment is entered
                         <div class="hidden-lg hidden-md col-sm-1 col-xs-1 hgt3"></div>
                         <div class="col-md-12 col-lg-12 hidden-sm hidden-xs hg22">
                         <div class="details2">
-                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/two.jpg);">
+                            <div class="circle" style="background-image: url(http://coloredcow.in/wp-content/themes/twentythirteen/images/two.jpg);">
                             </div>
                         <div id="square">
                             <div class="texts">
@@ -170,7 +170,7 @@ Comment is entered
                         </div>
                          <div class="hidden-lg hidden-md col-sm-10 col-xs-10 hg22s">
                           <div class="details2">
-                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/two.jpg);">
+                            <div class="circle" style="background-image: url(http://coloredcow.in/wp-content/themes/twentythirteen/images/two.jpg);">
                               </div>
                      <div id="square">
                          <div class="texts">
@@ -199,7 +199,7 @@ Comment is entered
                         <div class="hidden-lg hidden-md col-sm-1 col-xs-1 hgt3"></div>
                         <div class="col-md-12 col-lg-12 hidden-xs hidden-sm hg2">    
                             <div class="details">
-                                <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/three.jpg);">
+                                <div class="circle" style="background-image: url(http://coloredcow.in/wp-content/themes/twentythirteen/images/three.jpg);">
                                 </div>
                         <div id="square">
                             <div class="texts">
@@ -209,7 +209,7 @@ Comment is entered
                             </div></div>                
                     <div class="hidden-lg hidden-md col-sm-10 col-xs-10 hg2 ha"> 
                                 <div class="details">
-                                    <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/three.jpg);">
+                                    <div class="circle" style="background-image: url(http://coloredcow.in/wp-content/themes/twentythirteen/images/three.jpg);">
                                     </div>
                      <div id="square">
                          <div class="texts">
@@ -252,7 +252,7 @@ Comment is entered
                         </div>
                          <div class="hidden-lg hidden-md col-sm-10 col-xs-10 hg22s">
                           <div class="details2">
-                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/four.jpg);">
+                            <div class="circle" style="background-image: url(http://coloredcow.in/wp-content/themes/twentythirteen/images/four.jpg);">
                               </div>
                      <div id="square">
                          <div class="texts">
@@ -280,7 +280,7 @@ Comment is entered
                         <div class="hidden-lg hidden-md col-sm-1 col-xs-1 hgt3"></div>
                         <div class="col-md-12 col-lg-12 hidden-xs hidden-sm hg2">    
                             <div class="details">
-                                <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/five.jpg);">
+                                <div class="circle" style="background-image: url(http://coloredcow.in/wp-content/themes/twentythirteen/images/five.jpg);">
                                 </div>
                         <div id="square">
                             <div class="texts">
@@ -290,7 +290,7 @@ Comment is entered
                             </div></div>                
                     <div class="hidden-lg hidden-md col-sm-10 col-xs-10 hg2 ha"> 
                                 <div class="details">
-                                    <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/five.jpg);">
+                                    <div class="circle" style="background-image: url(http://coloredcow.in/wp-content/themes/twentythirteen/images/five.jpg);">
                                     </div>
                      <div id="square"><div class="texts">
                                 Samreen</div>
