@@ -96,7 +96,7 @@ and you study in an engineering college, then hop onboard.</p>
         </div>
     </html>
          <?php
-$link = mysqli_connect("localhost", "root", "password", "internshipdata");
+$link = mysqli_connect("localhost", "root", "password", "color6ha_wp563");
 
 $fname = $_POST['first'];
 $lname = $_POST['last'];
@@ -110,7 +110,7 @@ $picku= $_POST['picku'];
 
 
 
-$sql = "INSERT INTO intern (email, Firstname, Lastname,  college, city, whyInternWithUs, whatYouHopeToAchieve, whyPickyou) VALUES ('$email', '$fname', '$lname', '$college', '$city', '$internwithus', '$hope2achive', '$picku')";
+$sql = "INSERT INTO wp-intern (email, Firstname, Lastname,  college, city, whyInternWithUs, whatYouHopeToAchieve, whyPickyou) VALUES ('$email', '$fname', '$lname', '$college', '$city', '$internwithus', '$hope2achive', '$picku')";
 $res=mysqli_query($link, $sql);
 
 if($res){
