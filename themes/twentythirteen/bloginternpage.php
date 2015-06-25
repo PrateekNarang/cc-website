@@ -241,7 +241,7 @@ Comment is entered
                         <div class="hidden-lg hidden-md col-sm-1 col-xs-1 hgt3"></div>
                         <div class="col-md-12 col-lg-12 hidden-sm hidden-xs hg22">
                         <div class="details2">
-                            <div class="circle" style="background-image: url(http://localhost/wordpress/wp-content/themes/twentythirteen/images/four.jpg);">
+                            <div class="circle" style="background-image: url(http://coloredcow.in/wp-content/themes/twentythirteen/images/four.jpg);">
                             </div>
                         <div id="square">
                             <div class="texts">
