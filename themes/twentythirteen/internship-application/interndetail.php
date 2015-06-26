@@ -15,7 +15,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen/internship-
   <script src="<?php echo "$wp_path";?>/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head> 
-     
+     <body>
      <div id="cow" class="">   
 <h1  > Colored Cow </h1>      
     </div>
@@ -94,6 +94,7 @@ and you study in an engineering college, then hop onboard.</p>
             
         
         </div>
+    </body>
     </html>
          <?php
 $link = mysqli_connect("localhost", "color6ha_wp563", "i92PI!S[2A", "color6ha_wp563");
@@ -123,4 +124,5 @@ echo '</script>';
 mysqli_close($link);
 
 ?>
+
         

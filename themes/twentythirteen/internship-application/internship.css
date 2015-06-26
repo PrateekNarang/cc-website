@@ -15,7 +15,11 @@ Version: 1.0
 
 
 
-
+.body
+{
+   height: 390em;
+    width: 107em;
+}
 
 
 #cow{
