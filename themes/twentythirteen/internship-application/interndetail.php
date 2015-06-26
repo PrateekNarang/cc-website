@@ -96,7 +96,7 @@ and you study in an engineering college, then hop onboard.</p>
         </div>
     </html>
          <?php
-$link = mysqli_connect("localhost", "root", "password", "color6ha_wp563");
+$link = mysqli_connect("localhost", "color6ha_wp563", "i92PI!S[2A", "color6ha_wp563");
 
 $fname = $_POST['first'];
 $lname = $_POST['last'];
