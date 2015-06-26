@@ -76,7 +76,7 @@ and you study in an engineering college, then hop onboard.</p>
      
        <div class="row"></div>
  <div class="col-xs-3"> </div>
-        <div id="internshipform" class="col-xs-4 pg" >
+        <div id="internshipform" class="col-xs-4 pg" style="opacity:0.9;">
              <a name="application"> </a>
         <h3 id="awesomeness" class="formtag"> Fill in the form for one month of awesomeness</h3> <br>
          <form id='register' action='#' method='post' accept-charsest='UTF-8'>

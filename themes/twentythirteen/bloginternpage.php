@@ -210,7 +210,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                             </div></div>                
                     <div class="hidden-lg hidden-md col-sm-10 col-xs-10 hg2 ha"> 
                                 <div class="details">
-                                    <div class="circle" style="background-image: url(<?php echo "$wp_path";?>/three.jpg);">
+                                    <div class="circle" style="background-image: url(<?php echo "$wp_path";?>/images/three.jpg);">
                                     </div>
                      <div id="square">
                          <div class="texts">
