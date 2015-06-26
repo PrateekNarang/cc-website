@@ -110,7 +110,7 @@ $picku= $_POST['picku'];
 
 
 
-$sql = "INSERT INTO wp-intern (email, Firstname, Lastname,  college, city, whyInternWithUs, whatYouHopeToAchieve, whyPickyou) VALUES ('$email', '$fname', '$lname', '$college', '$city', '$internwithus', '$hope2achive', '$picku')";
+$sql = "INSERT INTO wp_intern (email, Firstname, Lastname,  college, city, whyInternWithUs, whatYouHopeToAchieve, whyPickyou) VALUES ('$email', '$fname', '$lname', '$college', '$city', '$internwithus', '$hope2achive', '$picku')";
 $res=mysqli_query($link, $sql);
 
 if($res){
