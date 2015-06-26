@@ -27,7 +27,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen/internship-
     </div>
     
     <div class="backgroundpage1" id="back1">
-    <img src="<?php echo "$wp_path";?>/background.png" style="height: 100%; width:100%;" />
+    <img src="<?php echo "$wp_path";?>/background.png" style="height: 100%; width:100%;" class="img-responsive"/>
 </div>
   
      
