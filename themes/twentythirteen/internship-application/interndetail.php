@@ -2,8 +2,10 @@
 /*
 Template Name: internship-application
 */
-$wp_path = 'wp-content/themes/twentythirteen/internship-application';
+$wp_path = 'http://127.0.0.1:9999/wordpress/wp-content/themes/twentythirteen/internship-application';
 ?>
+
+
 <html>
 
 <head>
@@ -70,7 +72,43 @@ and you study in an engineering college, then hop onboard.</p>
        <img id="applytab" src="<?php echo "$wp_path";?>/apply.png" class="applyheading">
      </div>
      
-     
+    <script>
+        function ajaxfunc(){
+          //  alert("Hello - ajaxfunc() is being called here"); // 
+        
+         var ajaxReq = new XMLHttpRequest(); //1
+            
+    
+            
+          ajaxReq.onreadystatechange = function(){
+
+      if(ajaxReq.readyState == 4){
+         
+          var ajaxdisplay = document.getElementById('internshipform');
+          ajaxdisplay.innerHTML = ajaxReq.responseText;
+    
+      } }  
+            
+        var fname = document.getElementById('first').value;
+        var lname = document.getElementById('last').value;
+        var email = document.getElementById('mail').value;
+        var college = document.getElementById('colg').value;
+        var city = document.getElementById('City').value;
+        var whyInternWithUs = document.getElementById('Internwithus').value;
+        var hopeToAchieve = document.getElementById('Hope2achieve').value;
+        var whyPickYou = document.getElementById('whyPickyou').value;
+        
+         var queryString = "?fname=" + fname + "&lname=" + lname + "&email=" + email + "&college=" + college + "&city=" + city + "&whyInternWithUs=" + whyInternWithUs + "&hopeToAchieve=" + hopeToAchieve + "&whyPickYou=" + whyPickYou;
+            
+           
+            
+         ajaxReq.open("GET", "interndetail_server.php" + queryString, true); //5
+            
+            
+         ajaxReq.send(null); 
+     }
+
+         </script>      
      
      
      
@@ -79,48 +117,20 @@ and you study in an engineering college, then hop onboard.</p>
         <div id="internshipform" class="col-xs-4 pg" >
              <a name="application"> </a>
         <h3 id="awesomeness" class="formtag"> Fill in the form for one month of awesomeness</h3> <br>
-         <form id='register' action='#' method='post' accept-charsest='UTF-8'>
+         <form id='register' action="#" method='post' accept-charsest='UTF-8'>
              <label class="formfonts" class="form-control" id="fname"> Name </label> <br> <input class="formcontrol-name" type="text" name="first" id="first" required placeholder="John"><div></div><input class="formcontrol-name" type="text" name="last" id="last" placeholder="Doe">
     <label id="email" class="formfonts"> Email</label><br> <input class="form-control" type="email" name="mail" id="mail" required placeholder="me@johndoe.com"> <br>
     <label class="formfonts">College</label><br><input class="form-control" type="text" name=college id="colg" required placeholder="my college"><br>
     <label class="formfonts">City</label><br><input class="form-control" type="text" name=city id="City" required placeholder="my city"><br>
-    <label class="formfonts">Why do you want to intern with us?</label><br><input class="form-control r" type="text"  name="internwithus"><br>
-    <label class="formfonts">What do you hope to achieve with this internship</label><br><input class="form-control r" type="text"  name="hope2achieve"><br>
-    <label class="formfonts">Why should we pick you?</label><br><input class="form-control r" type="text"  name="picku"><br>
+    <label class="formfonts">Why do you want to intern with us?</label><br><input class="form-control r" type="text"  name="internwithus"  id="Internwithus"><br>
+    <label class="formfonts">What do you hope to achieve with this internship</label><br><input class="form-control r" type="text"  name="hope2achieve" id="Hope2achieve"><br>
+    <label class="formfonts">Why should we pick you?</label><br><input class="form-control r" type="text"  name="picku" id="whyPickyou"><br>
       
-    <input  type="submit" value="Submit" id="submit" name="submit">
+    <input  type="submit" value="Submit" id="submit" name="submit" onclick='ajaxfunc()'>
     
     </form>   
             
         
         </div>
     </html>
-         <?php
-$link = mysqli_connect("localhost", "root", "password", "internshipdata");
-
-$fname = $_POST['first'];
-$lname = $_POST['last'];
-$email = $_POST['mail'];
-$college= $_POST['college'];
-$city= $_POST['city'];
-$internwithus= $_POST['internwithus'];
-$hope2achieve= $_POST['hope2achieve'];
-$picku= $_POST['picku'];
-
-
-
-
-$sql = "INSERT INTO intern (email, Firstname, Lastname,  college, city, whyInternWithUs, whatYouHopeToAchieve, whyPickyou) VALUES ('$email', '$fname', '$lname', '$college', '$city', '$internwithus', '$hope2achive', '$picku')";
-$res=mysqli_query($link, $sql);
-
-if($res){
-echo '<script language="javascript">';
-echo 'alert("You have successfully applied for Internship:)")';
-echo '</script>';
-}
- 
-//close connection
-mysqli_close($link);
-
-?>
-        
+              
