@@ -394,7 +394,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                   </div>
                   <div class="col-lg-4 col-md-6 col-sm-8 col-xs-10 low" >
                   <div id="checkoutbutton">
-                      <form action="<?php echo "$wp_path";?>/internship-application/interndetail.php" method="post">
+                      <form action="http://coloredcow.in/internship-application/" method="post">
 
 <input type="submit"  id="checkoutbutton" value="Apply Here"></form>
 </div>
