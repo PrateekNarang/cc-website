@@ -271,6 +271,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                                 Prakhar Agrawal<br>
                                  BTKIT, Dwarahat<br>
                                  <a href="http://prakharagrawal.com/blog" target="_blank">View Blog</a><br>
+                                 <a href="https://in.linkedin.com/in/prakharagrawalcv" target="_blank">View Resume</a><br>
                             </div>
                             </div>
                         <div id="triangle-down"></div>        
@@ -285,6 +286,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                                 Prakhar Agrawal<br>
                                  BTKIT, Dwarahat<br>
                                  <a href="http://prakharagrawal.com/blog" target="_blank">View Blog</a><br>
+                             <a href="https://in.linkedin.com/in/prakharagrawalcv" target="_blank">View Resume</a><br>
                          </div>
                     </div>
                 <div id="triangle-down"></div>                            
