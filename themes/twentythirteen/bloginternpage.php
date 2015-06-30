@@ -11,11 +11,23 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="http://coloredcow.in/internship/" />
+    <meta property="og:title" content="ColoredCow Summer Internship 2015-16" />
+    <meta property="og:description" content="Thoes who want to learn are special for us."/>
+    <meta property="og:image" content="http://coloredcow.in/wp/wp-content/themes/twentythirteen/images/one.jpg"/>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <title>Intern lounge</title>
     <link href="<?php echo "$wp_path";?>/css/bootstrap.min.css" rel="stylesheet">
       <link href="<?php echo "$wp_path";?>/css/index.css" rel="stylesheet">
   </head>
   <body link="black">
+      <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="<?php echo "$wp_path";?>/js/bootstrap.min.js"></script>
        <div class="container">
@@ -98,7 +110,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                   </div>
                   <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 low" >
                   <div class="spl">
-                    Those who want to learn are special for us
+                    Those who want to learn are special for us.
                   </div>
               </div>
                  <div class="col-lg-3 col-md-2 col-sm-1 hidden-xs low">
@@ -121,7 +133,8 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                                 </div>
                         <div id="square">
                             <div class="texts">
-                            Abhishek Sharma     
+                            Abhishek Sharma<br>
+                                Shiv Nadar<br>University<br>
                             </div></div>
                         <div id="triangle-down"></div>        
                             </div></div>                
@@ -131,7 +144,8 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                                     </div>
                      <div id="square">
                          <div class="texts">
-                                Abhishek Sharma
+                                Abhishek Sharma<br>
+                                Shiv Nadar<br>University<br>
                              </div>
                                     </div>
             <div id="triangle-down"></div>        
@@ -164,7 +178,8 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                             </div>
                         <div id="square">
                             <div class="texts">
-                            Aishwarya Sharma 
+                            Aishwarya Sharma<br>
+                                Shiv Nadar<br>University<br>
                             </div></div>
                         <div id="triangle-down"></div>        
                             </div>  
@@ -175,7 +190,8 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                               </div>
                      <div id="square">
                          <div class="texts">
-                            Aishwarya Sharma
+                            Aishwarya Sharma<br>
+                                Shiv Nadar<br>University<br>
                     </div>
                          </div>
                 <div id="triangle-down"></div>                            
@@ -204,7 +220,10 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                                 </div>
                         <div id="square">
                             <div class="texts">
-                                Tushar Singh Bohra</div>    
+                                Tushar Singh Bohra<br>
+                                BTKIT, Dwarahat<br>
+                                 <a href="http://www.tusharsinghbohra.com" target="_blank">View Blog</a><br>
+                                </div>
                         </div>
                         <div id="triangle-down"></div>        
                             </div></div>                
@@ -214,8 +233,11 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                                     </div>
                      <div id="square">
                          <div class="texts">
-                                Tushar Singh Bohra</div>
-                                    </div>
+                                Tushar Singh Bohra<br>
+                                BTKIT, Dwarahat<br>
+                                 <a href="http://www.tusharsinghbohra.com" target="_blank">View Blog</a><br>
+
+                                    </div></div>
             <div id="triangle-down"></div>        
                                 </div>                
                     </div>
@@ -246,7 +268,10 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                             </div>
                         <div id="square">
                             <div class="texts">
-                                Prakhar Agrawal</div>
+                                Prakhar Agrawal<br>
+                                 BTKIT, Dwarahat<br>
+                                 <a href="http://prakharagrawal.com/blog" target="_blank">View Blog</a><br>
+                            </div>
                             </div>
                         <div id="triangle-down"></div>        
                             </div>  
@@ -257,7 +282,10 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                               </div>
                      <div id="square">
                          <div class="texts">
-                             Prakhar Agrawal</div>
+                                Prakhar Agrawal<br>
+                                 BTKIT, Dwarahat<br>
+                                 <a href="http://prakharagrawal.com/blog" target="_blank">View Blog</a><br>
+                         </div>
                     </div>
                 <div id="triangle-down"></div>                            
                                 </div>  
@@ -285,7 +313,10 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                                 </div>
                         <div id="square">
                             <div class="texts">
-                                Samreen    </div>
+                                Samreen<br>
+                            BTKIT, Dwarahat<br>
+                           <a href="https://samreenanees.wordpress.com/" target="_blank">View Blog</a><br>
+                            </div>
                         </div>
                         <div id="triangle-down"></div>        
                             </div></div>                
@@ -294,7 +325,10 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                                     <div class="circle" style="background-image: url(<?php echo "$wp_path";?>/images/five.jpg);">
                                     </div>
                      <div id="square"><div class="texts">
-                                Samreen</div>
+                                Samreen<br>
+                            BTKIT, Dwarahat<br>
+                           <a href="https://samreenanees.wordpress.com/" target="_blank">View Blog</a><br>
+                         </div>
                                     </div>
             <div id="triangle-down"></div>        
                                 </div>                
@@ -402,7 +436,38 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
                  <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1 low">
                   </div>                                      
             </div>
-      
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 space">
+          &nbsp;
+          </div>
+      </div>
+              <div class="row">
+       <div class="col-lg-4 col-md-4 col-sm-3 col-xs-2 ">
+                  </div>
+				  	   <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 ">
+					   <div class="row">
+					   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 space"></div>
+					    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
+
+		<div class="fb-share-button" data-href="http://coloredcow.in/internship/" data-layout="button" ></div>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
+	  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://coloredcow.in/internship" data-text="Those who want to learn are special for us" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div>
+	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-3 ">
+	<div class="g-plus" data-action="share" data-annotation="none" data-href="http://coloredcow.in/internship/" ></div>
+					   </div>
+					   </div>
+
+                  </div>
+	   <div class="col-lg-4 col-md-4 col-sm-3 col-xs-1 ">
+                  </div>
+	   </div>
+            <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 space">
+          </div>
+      </div>
       
        </div>
       

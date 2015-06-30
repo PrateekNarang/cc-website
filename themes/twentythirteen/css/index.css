@@ -233,13 +233,26 @@ border: 2px solid #2BB673  ;
  padding: 5px;
 }
 
-.a {
+a:link
+{
     color: black;
+}
+a:visited
+{
+color: black;
 }
 .texts
 {
-    padding-top: 8px;
+    text-decoration: none;
     color: #000000;
     font: 300 14px FuturaBT;
     text-align: center;
+    overflow-wrap: break-word;
+    padding: 1em;
+
+}
+.space
+{
+height: 8px;
+
 }
