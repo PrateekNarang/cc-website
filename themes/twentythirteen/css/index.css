@@ -13,9 +13,18 @@
 
     height: 10vw;
 }
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(http://coloredcow.in/wp/wp-content/themes/twentythirteen/fonts/HelveticaNeueLTStd-Th.otf) format("truetype");
+}
+@font-face {
+  font-family: "Arimo-Regular";
+  src: url(http://coloredcow.in/wp/wp-content/themes/twentythirteen/fonts/Arimo-Regular.ttf) format("truetype");
+}
 .cc
 {   
-    font: 6.25em HelveticaNeueLTCom;
+    font-family: "HelveticaNeue";
     font-size: 6vw;
     text-align: center;
     color: #000;  
@@ -39,7 +48,7 @@
 .il
 {   padding-top: .8vw;
     color: #beacab;
-    font: 300 36px / 18px FuturaBT;
+    font: 300 36px / 18px HelveticaNeue;
     font-size: 3.9vw;
     text-align: center;
     color: #000;
@@ -47,7 +56,7 @@
 .oi
 {   padding-top: .8vw;
     color: #beacab;
-    font: 300 36px / 18px FuturaBT;
+    font: 300 36px / 18px HelveticaNeue;
     font-size: 3vw;
     text-align: center;
     color: #000;
@@ -70,17 +79,28 @@ hr {
 }
 .sp
 {
+height: 5vw;
+}
+.spa
+{
 
-height: 8vw;
+height: .5vw;
+}
+.spa1
+{
+
+height: .9vw;
 }
 .sum {
     font-size: 3.5vw;
+	font-family: "HelveticaNeue";
     text-align: center;
     color: #000;
 }
 .spl {
     font-size: 2vw;
     text-align: center;
+	font-family: "Arimo-Regular";
     color: #000;
 }
 .low
@@ -245,7 +265,7 @@ color: black;
 {
     text-decoration: none;
     color: #000000;
-    font: 300 14px FuturaBT;
+    font: 300 14px Arimo-Regular;
     text-align: center;
     overflow-wrap: break-word;
     padding: 1em;
