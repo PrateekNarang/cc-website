@@ -15,6 +15,8 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/twentythirteen';
     <meta property="og:title" content="ColoredCow Summer Internship 2015-16" />
     <meta property="og:description" content="Thoes who want to learn are special for us."/>
     <meta property="og:image" content="http://coloredcow.in/wp/wp-content/themes/twentythirteen/images/one.jpg"/>
+    <meta name="keywords" content="intern, internship, internships, summer internship, winter internship, internships 2015, part time jobs, IT internships, internship in india, ColoredCow"/>
+    <meta name="description" content="Looking for internship opportunities during vacations? Join ColoredCow as an intern, and get the most amazing learing experience.">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <title>Intern lounge</title>
     <link href="<?php echo "$wp_path";?>/css/bootstrap.min.css" rel="stylesheet">
