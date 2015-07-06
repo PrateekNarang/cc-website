@@ -2,12 +2,10 @@
 
 This is the first theme for official Colored Cow Website
 
-Authors:
+Date: 7 July 2015
 
-Tushar Bohra
-Nishanth KD
+Authors: Tushar Bohra, Nishanth KD
 
-Designers: 
+Designers: Abhishek Sharma
 
-Abhishek Sharma
 
