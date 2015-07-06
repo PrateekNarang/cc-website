@@ -1,2 +1,4 @@
 #ignore bootstrap source files
 /themes/coloredcow/bootstrap/
+/themes/coloredcow/package.json
+/themes/coloredcow/npm-debug.log
