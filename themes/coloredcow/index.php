@@ -13,8 +13,4 @@
  * @subpackage Colored_Cow
  * @since Colored Cow 1.0
  */
-?>
-
-
-
-
+ ?>
