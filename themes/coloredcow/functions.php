@@ -13,8 +13,11 @@
 if ( ! function_exists( 'cc_root_path' ) ) :
 
 function cc_root_path() {
-	global $wp_query;
-
-	return "path";
+	echo "http://coloredcow.in";
+    return;
+}
+function cc_home_path() {
+	echo "http://coloredcow.in";
+    return;
 }
 endif;

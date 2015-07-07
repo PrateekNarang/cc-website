@@ -1,0 +1,310 @@
+.ye
+{
+    background-color: #fec916;
+    height: 40em;
+      background: -webkit-radial-gradient(#fec950,#fec916);
+  background: -o-radial-gradient(#fec950,#fec916);
+  background: -moz-radial-gradient(#fec950,#fec916);
+  background: radial-gradient(#fec950,#fec916);
+}
+.he
+{
+    height: 6em;
+}
+@font-face {
+  font-family: "UniversLTStd";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/UniversLTStd.otf) format("opentype");
+}
+.menu
+{
+height: 5em;
+    background-color: white;
+    padding-top: 7px;
+    text-align: center;
+}
+.menu1
+{
+height: 2em;
+    background-color: white;
+    padding-top: 4px;
+        text-align: center;
+    font-family: UniversLTStd;
+}
+a.menutext
+{
+    color: black;}
+a.menutext:hover
+{
+color: black;
+}
+a.subtext
+{
+    color: black;}
+a.subtext:hover
+{
+color: black;
+    text-decoration: none;
+}
+
+.submenuspace
+{
+height: 1em;
+}
+.submenu
+{
+height: 2.5em;
+    background-color: white;
+    padding-top: 8px;
+    text-align: center;
+     transition: all 5s ease;
+}
+.dropdown
+{
+margin-left: 4.2vw;
+}
+#triangle-down {
+	width: 0; 
+	height: 0; 
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-top: 1em solid white;
+   
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/HelveticaNeueLTStd-Th.otf) format("truetype");
+}
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/Oswald-Regular.ttf) format("truetype");
+}
+.cc
+{   
+    font-family: "HelveticaNeue";
+    font-size: 3.2em;
+    padding-top: 6px;
+    }
+a.cclink:link
+{
+    color: #f2f2f2;
+       text-decoration: none;
+}
+a.cclink:hover
+{
+color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:visited
+{
+color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:active
+{
+color: #f2f2f2;
+    text-decoration: none;
+}
+.cast
+{
+    font-family: "Oswald-Regular";
+    font-size: 3em;
+    color: white;  
+    text-align: center;
+}
+.text
+{
+height:4.4em;
+    }
+.blank
+{
+height: 10em;
+}
+.grass
+{
+
+width: 100%;
+    position: absolute;
+    bottom:-115px;
+left: -2px;
+}
+.lable
+{
+padding-top: 4.6em;
+
+}
+
+#about {
+        left:6.2vw;position: absolute;
+}
+
+#about:hover {
+    left:6vw;
+}
+#aboutblog {
+    left:5.7vw;position: absolute;
+}
+
+#aboutblog:hover {
+    left:5.5vw;
+}
+.aftergrass
+{
+height: 4em;
+}
+#triangle-down2 {
+	width: 0; 
+	height: 0; 
+	border-left: 1.7em solid transparent;
+	border-right: 1.7em solid transparent;
+	border-top: 2.5em solid  #fbb03b;
+}
+.lowertraingle
+{
+height: 4em;
+}
+.afterlowertriangle
+{
+height: 10em;
+}
+.spaceo{
+height: 20em;
+width: 5%;}
+.spacei{
+height: 20em;
+width: 5%;}
+.box{
+height: 20em;
+background-color: #febe3f;
+width: 26.6%;}
+.smspace{
+height: 20em;
+width: 10%;}
+.smbox{
+height: 20em;
+background-color: #febe3f;
+width: 35%;}
+.smspace2
+{
+height: 20em;
+width: 32.5%;
+}
+.smmidspace
+{
+height: 5em;
+}
+.xsspace
+{
+height: 20em;
+    width: 25%;
+}
+.xsbox
+{
+height: 20em;
+    width: 50%;
+    background-color: #febe3f;
+}
+.bluespace
+{
+    width: 15%;
+}
+@font-face {
+  font-family: "BebasNeueRegular";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/BebasNeueRegular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "UniversLTStd";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/UniversLTStd.otf) format("opentype");
+}
+.bluefilled
+{
+width: 70%;
+background-color: #055053;
+top: -20px;
+height: 40px;
+    color: #f2f2f2;
+    font-family: BebasNeueRegular;
+    font-size: 27px;
+    text-align: center;
+}
+a.bodylink
+{
+    color: #f2f2f2;}
+a.bodylink:hover
+{
+color: #f2f2f2;
+    text-decoration: none;
+}
+.bluefilledap
+{
+width: 70%;
+background-color: #055053;
+top: -40px;
+height: 80px;
+    color: #f2f2f2;
+    font-family: BebasNeueRegular;
+    font-size: 30px;
+    text-align: center;
+}
+@font-face {
+  font-family: "UniversLTStd";
+  src: url(fonts/UniversLTStd.otf) format("opentype");
+}
+.boxtext
+{top: 3em;
+    padding: 30px;
+    text-align: center;
+    color: #000000;
+    font-family: UniversLTStd;
+    font-size: 22px;
+    position: absolute;
+
+}
+
+
+
+
+@font-face {
+  font-family: "OptimaLTStd";
+    src: url(fonts/OptimaLTStd.otf) format("opentype");}
+.footer
+{
+background-color: #29465E;
+    height: 17em;
+}
+.fheading
+{
+font-size: 40px;
+    color: #f2f2f2;
+text-align: center;
+    height: 75px;
+    font-family: HelveticaNeue;
+}
+.ftext
+{   
+    color: #f2f2f2;
+    font-family:  OptimaLTStd;
+    font-size: 23px;
+    text-align: center;
+    height: 80px;
+    padding: 10px;
+}
+.fspace
+{
+ height: 55px;
+}
+.fmenu
+{
+color: #f2f2f2;
+text-align: center;
+    bottom: 5px;
+}
+a.fmenutext
+{
+    color: #f2f2f2;}
+a.fmenutext:hover
+{
+color: #f2f2f2;
+}
+
+

@@ -1,5 +1,6 @@
 <?php
-/**
+/*
+Template Name:home
  * The main template file
  *
  * This is the most generic template file in a WordPress theme and one of the
@@ -12,6 +13,7 @@
  * @package WordPress
  * @subpackage Colored_Cow
  * @since Colored Cow 1.0
+ 
  */
 $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
 ?>
@@ -27,7 +29,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
         <title>ColoredCow</title>
         <link href="<?php echo "$wp_path";?>/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo "$wp_path";?>/css/home.css" rel="stylesheet">
-        <link rel="icon" type="image/png" href="<?php echo "$wp_path";?>/images/home/logo.png">
+        <link rel="icon" type="image/png" href="<?php echo " $wp_path ";?>/images/home/logo.png">
     </head>
 
     <body>
@@ -92,17 +94,17 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 menu">
                            <a href="<?php cc_root_path();?>/career">
-                            <img src="<?php echo "$wp_path";?>/images/home/career_black.png" height="60px" width="50px" style=" top: 7px;position: absolute; top: 7px; left:6vw">
+                            <img src="<?php echo " $wp_path ";?>/images/home/career_black.png" height="60px" width="50px" style=" top: 7px;position: absolute; top: 7px; left:6vw">
                             <div id="about" onmouseover="myFunction1()" onmouseout="myFunction2()">
-                                <img src="<?php echo "$wp_path";?>/images/home/career.png" height="60px" width="50px" id="career">
+                                <img src="<?php echo " $wp_path ";?>/images/home/career.png" height="60px" width="50px" id="career">
                             </div>
                             </a>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 menu">
                            <a href="<?php cc_root_path();?>/contact">
-                            <img src="<?php echo "$wp_path";?>/images/home/contact_black.png" height="55px" width="50px" style=" top: 7px;position: absolute; top: 7px; left:6vw">
+                            <img src="<?php echo " $wp_path ";?>/images/home/contact_black.png" height="55px" width="50px" style=" top: 7px;position: absolute; top: 7px; left:6vw">
                             <div id="about">
-                                <img src="<?php echo "$wp_path";?>/images/home/contact.png" height="55px" width="50px" id="contact">
+                                <img src="<?php echo " $wp_path ";?>/images/home/contact.png" height="55px" width="50px" id="contact">
                             </div>
                             </a>
                         </div>
@@ -219,16 +221,16 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <img src="<?php echo"$wp_path";?>/images/career/grass.png" class="grass" />
+                            <img src="<?php echo " $wp_path ";?>/images/career/grass.png" class="grass" />
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <img src="<?php echo"$wp_path";?>/images/career/grass.png" class="grass" />
+                            <img src="<?php echo " $wp_path ";?>/images/career/grass.png" class="grass" />
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <img src="<?php echo"$wp_path";?>/images/career/grass.png" class="grass" />
+                            <img src="<?php echo " $wp_path ";?>/images/career/grass.png" class="grass" />
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <img src="<?php echo"$wp_path";?>/images/career/grass.png" class="grass" />
+                            <img src="<?php echo " $wp_path ";?>/images/career/grass.png" class="grass" />
                         </div>
                     </div>
 
@@ -274,7 +276,3 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
 
     <?php require 'footer.php'; 
                     ?>
-
-
-
-
