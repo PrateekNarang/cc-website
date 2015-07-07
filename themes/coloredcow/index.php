@@ -274,7 +274,3 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
 
     <?php require 'footer.php'; 
                     ?>
-
-
-
-

@@ -90,12 +90,25 @@ a.cclink:active
 color: #f2f2f2;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 900px) { 
+.ye
+.cast {
+    font-family: "Oswald-Regular";
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+}
+@media only screen and (min-width: 901px) { 
 .cast {
     font-family: "Oswald-Regular";
     font-size: 3em;
     color: white;
     text-align: center;
-}
+}}
+
+
 .text {
     height: 4.4em;
 }
