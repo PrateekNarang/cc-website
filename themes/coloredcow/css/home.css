@@ -1,5 +1,8 @@
 .ye {
-    background-color: #1083CE;
+    background: #1083CE url(http://localhost/wordpress/wp-content/themes/coloredcow/images/home/dots.png);
+    background-position: 10em 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 40em;
 }
 .he {
@@ -20,7 +23,7 @@
     background-color: white;
     padding-top: 4px;
     text-align: center;
-    font-family: UniversLTStd;
+    font-family: "UniversLTStd";
 }
 a.menutext {
     color: black;
@@ -63,52 +66,43 @@ a.subtext:hover {
     font-family: "Oswald-Regular";
     src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/Oswald-Regular.ttf) format("truetype");
 }
-.cc
-{   
+.cc {
     font-family: "HelveticaNeue";
     font-size: 3.2em;
     padding-top: 6px;
-    }
-
-a.cclink:link
-{
+}
+a.cclink:link {
     color: #f2f2f2;
-       text-decoration: none;
-}
-a.cclink:hover
-{
-color: #f2f2f2;
     text-decoration: none;
 }
-a.cclink:visited
-{
-color: #f2f2f2;
+a.cclink:hover {
+    color: #f2f2f2;
     text-decoration: none;
 }
-a.cclink:active
-{
-color: #f2f2f2;
+a.cclink:visited {
+    color: #f2f2f2;
     text-decoration: none;
 }
-
-@media only screen and (max-width: 900px) { 
-.ye
-.cast {
-    font-family: "Oswald-Regular";
-    font-size: 2em;
-    color: white;
-    text-align: center;
+a.cclink:active {
+    color: #f2f2f2;
+    text-decoration: none;
 }
+@media only screen and (max-width: 900px) {
+    .cast {
+        font-family: "Oswald-Regular";
+        font-size: 2em;
+        color: white;
+        text-align: center;
+    }
 }
-@media only screen and (min-width: 901px) { 
-.cast {
-    font-family: "Oswald-Regular";
-    font-size: 3em;
-    color: white;
-    text-align: center;
-}}
-
-
+@media only screen and (min-width: 901px) {
+    .cast {
+        font-family: "Oswald-Regular";
+        font-size: 3em;
+        color: white;
+        text-align: center;
+    }
+}
 .text {
     height: 4.4em;
 }
@@ -152,8 +146,171 @@ color: #f2f2f2;
     height: 4em;
 }
 .afterlowertriangle {
-    height: 10em;
+    height: 5em;
 }
-.space {
-    height: 30em;
+@font-face {
+    font-family: "OptimaLTStd";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/OptimaLTStd.otf) format("opentype");
+}
+@font-face {
+    font-family: "BebasNeueRegular";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/OptimaLTStd.ttf) format("truetype");
+}
+@media only screen and (max-width: 900px) {
+    .expandside {
+        width: 10%;
+    }
+    .expand {
+        width: 80%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 30px;
+    }
+    .star {
+        width: 50%;
+        color: #000000;
+        font-size: 17px;
+        text-align: center;
+        font-family: "OptimaLTStd";
+    }
+    .starside {
+        width: 25%;
+    }
+    .product {
+        width: 80%;
+        height: 250px;
+        background-color: #a34ea0;
+    }
+    .productside {
+        width: 10%;
+        height: 250px;
+    }
+        .producthead {
+        top: -15px;
+        height: 30px;
+        background-color: #055053;
+        width: 50%;
+        color: #f2f2f2;
+        font-family: "BebasNeueRegular";
+        text-align: center;
+        font-size: 15px;
+        padding: 3.5px;
+    }
+    .productheadside {
+        top: -15px;
+        height: 30px;
+        width: 30%;
+    }
+        .mmn
+    {
+        color: #000000;
+        font: 20.99px AveriaSerif;
+        text-align: center;
+        height: 180px;
+    }
+        #checkoutbutton {
+
+  border-radius: 37px;
+-moz-border-radius: 37px;
+-webkit-border-radius: 37px;
+border: 2px solid #febe3f  ;
+  background-color: #febe3f  ;
+  text-align: center;
+        bottom: 10px;
+
+}
+
+}
+@media only screen and (min-width: 901px) {
+    ..expandside {
+        width: 10%;
+    }
+    .expand {
+        width: 80%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 47px;
+    }
+    .star {
+        width: 50%;
+        color: #000000;
+        font-size: 30px;
+        text-align: center;
+        font-family: "OptimaLTStd";
+    }
+    .starside {
+        width: 25%;
+    }
+    .product {
+        width: 70%;
+        height: 400px;
+        background-color: #a34ea0;
+    }
+    .productside {
+        width: 15%;
+        height: 400px;
+    }
+    .producthead {
+        top: -25px;
+        height: 50px;
+        background-color: #055053;
+        width: 50%;
+        color: #f2f2f2;
+        font-family: "BebasNeueRegular";
+        text-align: center;
+        font-size: 25px;
+        padding: 5px;
+    }
+    .productheadside {
+        width: 25%;
+        top: -15px;
+        height: 30px;
+    }
+    .mmn
+    {
+        color: #000000;
+        font: 28.99px AveriaSerif;
+        text-align: center;
+        height: 300px;
+    }
+    #checkoutbutton {
+
+  border-radius: 50px;
+-moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+border: 2px solid #febe3f  ;
+  background-color: #febe3f  ;
+  text-align: center;
+        bottom: 10px;
+
+}
+
+}
+a.shoot:link {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #1083CE;
+}
+a.shoot:hover {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #1083CE;
+}
+a.shoot:visited {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #1083CE;
+}
+a.shoot:active {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #1083CE;
+}
+.mid {
+    height: 1em;
+}
+.afterstar {
+    height: 250px;
 }

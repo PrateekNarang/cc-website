@@ -27,7 +27,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
         <title>ColoredCow</title>
         <link href="<?php echo "$wp_path";?>/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo "$wp_path";?>/css/home.css" rel="stylesheet">
-        <link rel="icon" type="image/png" href="<?php echo "$wp_path";?>/images/home/logo.png">
+        <link rel="icon" type="image/png" href="<?php echo " $wp_path ";?>/images/home/logo.png">
     </head>
 
     <body>
@@ -38,10 +38,10 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ye">
                     <div class="row">
                         <div class="col-lg-1 col-md-1 col-sm-2 col-xs-3">
-                            <a href="<?php cc_home_path();?>"> <img src="<?php echo "$wp_path";?>/images/home/logo.png" height="65px" width="60px" style="padding-top:10px; padding-left:9px;"></a>
+                            <a href="#"> <img src="<?php echo "$wp_path";?>/images/home/logo.png" height="65px" width="60px" style="padding-top:10px; padding-left:9px;"></a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-5 col-xs-5 he">
-                            <p class="cc"> <a href="<?php cc_home_path();?>" class="cclink">ColoredCow</a></p>
+                            <p class="cc"> <a href="#" class="cclink">ColoredCow</a></p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
                         </div>
@@ -91,7 +91,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                          </a>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 menu">
-                           <a href="<?php cc_root_path();?>/career">
+                            <a href="<?php cc_root_path();?>/career">
                             <img src="<?php echo "$wp_path";?>/images/home/career_black.png" height="60px" width="50px" style=" top: 7px;position: absolute; top: 7px; left:6vw">
                             <div id="about" onmouseover="myFunction1()" onmouseout="myFunction2()">
                                 <img src="<?php echo "$wp_path";?>/images/home/career.png" height="60px" width="50px" id="career">
@@ -99,7 +99,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                             </a>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 menu">
-                           <a href="<?php cc_root_path();?>/contact">
+                            <a href="<?php cc_root_path();?>/contact">
                             <img src="<?php echo "$wp_path";?>/images/home/contact_black.png" height="55px" width="50px" style=" top: 7px;position: absolute; top: 7px; left:6vw">
                             <div id="about">
                                 <img src="<?php echo "$wp_path";?>/images/home/contact.png" height="55px" width="50px" id="contact">
@@ -218,17 +218,17 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
 
                     </div>
                     <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <img src="<?php echo"$wp_path";?>/images/career/grass.png" class="grass" />
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                            <img src="<?php echo "$wp_path";?>/images/career/grass.png" class="grass" />
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <img src="<?php echo"$wp_path";?>/images/career/grass.png" class="grass" />
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                            <img src="<?php echo "$wp_path";?>/images/career/grass.png" class="grass" />
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <img src="<?php echo"$wp_path";?>/images/career/grass.png" class="grass" />
+                        <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                            <img src="<?php echo "$wp_path";?>/images/career/grass.png" class="grass" />
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <img src="<?php echo"$wp_path";?>/images/career/grass.png" class="grass" />
+                        <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                            <img src="<?php echo "$wp_path";?>/images/career/grass.png" class="grass" />
                         </div>
                     </div>
 
@@ -260,10 +260,71 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
 
 
 
+            <div class="row-fluid">
+                <div class="colw-lg-1 col-md-1 col-sm-1 col-xs-1 expandside">
+                </div>
+                <div class="col-lg-10 col-ms-10 col-sm-10 col-xs-10 expand">
+                    We're expanding, join our universe.
+                </div>
+                <div class="colw-lg-1 col-md-1 col-sm-1 col-xs-1 expandside">
+                </div>
+            </div>
             <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mid">
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="colw-lg-3 col-md-3 col-sm-3 col-xs-3 starside">
+                </div>
+                <div class="col-lg-6 col-ms-6 col-sm-6 col-xs-6 star">
+                    <a href="<?php cc_root_path();?>/career" class="shoot">Ready to shoot to the stars?</a>
+                </div>
+                <div class="colw-lg-3 col-md-3 col-sm-3 col-xs-3 starside">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 afterstar">
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 productside">
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 product">
+                    <div class="row-fluid">
+                        <div class="col-lg-4 col-md-3 col-sm-3 col-xs-2 productheadside">
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-8 producthead">
+                            OUR PRODUCT
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-sm-3 col-xs-2 productheadside">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        </div>
+                    </div>
+                    <div class="mmn">
+                        MMN is our effort to use technology to reduce the gap between NGOs and corporates.
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                           <a href="http://managemyngo.com/" target="_blank">
+                               <center><button type="button" id="checkoutbutton">Interesting</button></center></a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3">
+                        </div>
+                    </div>
 
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 space">
+
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 productside">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 afterstar">
                 </div>
             </div>
 
