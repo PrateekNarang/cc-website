@@ -14,3 +14,9 @@
  * @since Colored Cow 1.0
  */
  ?>
+
+
+<link href="wp-content/themes/coloredcow/source/less/styles.less" rel="stylesheet">
+<body>
+    <p style="font-size:30px">sdasdasdasdasd</p>
+</body>

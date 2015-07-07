@@ -1,4 +1,7 @@
-#ignore bootstrap source files
+
 /themes/coloredcow/bootstrap/
 /themes/coloredcow/package.json
 /themes/coloredcow/npm-debug.log
+/themes/coloredcow/node_modules
+/themes/coloredcow/Gruntfile.js
+
