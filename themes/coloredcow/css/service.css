@@ -1,0 +1,250 @@
+.ye
+{
+    background-color: #e77df9;
+    height: 40em;
+}
+.he
+{
+    height: 6em;
+}
+@font-face {
+  font-family: "UniversLTStd";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/UniversLTStd.otf) format("opentype");
+}
+.menu
+{
+height: 5em;
+    background-color: white;
+    padding-top: 7px;
+    text-align: center;
+}
+.menu1
+{
+height: 2em;
+    background-color: white;
+    padding-top: 4px;
+    text-align: center;
+    font-family: UniversLTStd;
+}
+a.menutext
+{
+    color: black;}
+a.menutext:hover
+{
+color: black;
+}
+a.subtext
+{
+    color: black;}
+a.subtext:hover
+{
+color: black;
+    text-decoration: none;
+}
+
+.submenuspace
+{
+height: 1em;
+}
+.submenu
+{
+height: 2.5em;
+    background-color: white;
+    padding-top: 8px;
+    text-align: center;
+     transition: all 5s ease;
+}
+.dropdown
+{
+margin-left: 4.2vw;
+}
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-top: 1em solid white;
+
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/HelveticaNeueLTStd-Th.otf) format("truetype");
+}
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/Oswald-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "BebasNeueRegular";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/BebasNeueRegular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Times";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/TimesLTStd-Roman.otf) format("opentype");
+}
+.cc
+{
+    font-family: "HelveticaNeue";
+    font-size: 3.2em;
+    padding-top: 6px;
+    }
+
+a.cclink:link
+{
+    color: #f2f2f2;
+       text-decoration: none;
+}
+a.cclink:hover
+{
+color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:visited
+{
+color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:active
+{
+color: #f2f2f2;
+    text-decoration: none;
+}
+.cast
+{
+    font-family: "Oswald-Regular";
+
+    color: white;
+    text-align: center;
+}
+.text
+{
+height:4.4em;
+    }
+.blank
+{
+height: 10em;
+}
+.grass
+{
+
+width: 100%;
+    position: absolute;
+    bottom:-115px;
+left: -2px;
+}
+.lable
+{
+padding-top: 4.6em;
+
+}
+
+#about {
+        left:6.2vw;position: absolute;
+}
+
+#about:hover {
+    left:6vw;
+}
+#aboutblog {
+    left:5.7vw;position: absolute;
+}
+
+#aboutblog:hover {
+    left:5.5vw;
+}
+.aftergrass
+{
+height: 4em;
+}
+#triangle-down2 {
+	width: 0;
+	height: 0;
+	border-left: 1.7em solid transparent;
+	border-right: 1.7em solid transparent;
+	border-top: 2.5em solid  #ed1e79;
+}
+.lowertraingle
+{
+height: 4em;
+}
+.afterlowertriangle
+{
+height: 10em;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+.cast
+    {
+    font-size: 1.5em;
+    }
+    .deliveries
+    {
+        color: #000000;
+        font-family: "BebasNeueRegular";
+        text-align: center;
+        font-size: 30px;
+    }
+    .deltext
+    {
+    background-color: #19364b;
+        padding: 60px;
+        text-align: center;
+        color: #f2f2f2;
+        font-family: "Times";
+        font-size: 20px;
+    }
+        .protext
+    {
+    background-color: #d73e3f;
+        padding: 60px;
+        text-align: center;
+        color: #f2f2f2;
+        font-family: "Times";
+        font-size: 20px;
+
+    }
+}
+@media only screen and (min-width: 901px) {
+.cast
+    {
+    font-size: 3em;
+    }
+    .deliveries
+    {
+        color: #000000;
+        font-family: "BebasNeueRegular";
+        text-align: center;
+        font-size: 45px;
+    }
+    .deltext
+    {
+    background-color: #19364b;
+        padding: 120px;
+        text-align: center;
+        color: #f2f2f2;
+        font-family: "Times";
+        font-size: 30px;
+    }
+        .protext
+    {
+    background-color: #d73e3f;
+        padding: 120px;
+        text-align: center;
+        color: #f2f2f2;
+        font-family: "Times";
+        font-size: 30px;
+
+    }
+}
+
+
+
+
+
+

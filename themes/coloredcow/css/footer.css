@@ -1,116 +1,88 @@
 @font-face {
-  font-family: "HelveticaNeue";
-  src: url(fonts/HelveticaNeueLTStd-Th.otf) format("truetype");
+    font-family: "HelveticaNeue";
+    src: url(fonts/HelveticaNeueLTStd-Th.otf) format("truetype");
 }
-@media only screen and (max-width: 900px) 
-{
-    
-    .footer
-{
-background-color: #29465E;
-    height: 10em;
+@media only screen and (max-width: 900px) {
+    .footer {
+        background-color: #29465E;
+        height: 10em;
+    }
+    .fheading {
+        font-size: 25px;
+        color: #f2f2f2;
+        text-align: center;
+        height: 35px;
+        font-family: HelveticaNeue;
+    }
+    .ftext {
+        color: #f2f2f2;
+        font-family: OptimaLTStd;
+        font-size: 12px;
+        text-align: center;
+        height: 50px;
+        padding: 5px;
+    }
+    .fspace {
+        height: 25px;
+    }
+    .fmenu {
+        color: #f2f2f2;
+        text-align: center;
+        bottom: 5px;
+    }
 }
-.fheading
-{
-font-size: 25px;
+@media only screen and (min-width: 901px) {
+    .footer {
+        background-color: #29465E;
+        height: 17em;
+    }
+    .fheading {
+        font-size: 40px;
+        color: #f2f2f2;
+        text-align: center;
+        height: 75px;
+        font-family: HelveticaNeue;
+    }
+    .ftext {
+        color: #f2f2f2;
+        font-family: OptimaLTStd;
+        font-size: 23px;
+        text-align: center;
+        height: 80px;
+        padding: 10px;
+    }
+    .fspace {
+        height: 55px;
+    }
+    .fmenu {
+        color: #f2f2f2;
+        text-align: center;
+        bottom: 5px;
+    }
+}
+a.fhome:link {
     color: #f2f2f2;
-text-align: center;
-    height: 35px;
-    font-family: HelveticaNeue;
-}
-.ftext
-{   
-    color: #f2f2f2;
-    font-family:  OptimaLTStd;
-    font-size: 12px;
-    text-align: center;
-    height: 50px;
-    padding: 5px;
-}
-.fspace
-{
- height: 25px;
-}
-.fmenu
-{
-color: #f2f2f2;
-text-align: center;
-    bottom: 5px;
-}
-}
-@media only screen and (min-width: 901px) 
-{
-    .footer
-{
-background-color: #29465E;
-    height: 17em;
-}
-.fheading
-{
-font-size: 40px;
-    color: #f2f2f2;
-text-align: center;
-    height: 75px;
-    font-family: HelveticaNeue;
-}
-.ftext
-{   
-    color: #f2f2f2;
-    font-family:  OptimaLTStd;
-    font-size: 23px;
-    text-align: center;
-    height: 80px;
-    padding: 10px;
-}
-.fspace
-{
- height: 55px;
-}
-.fmenu
-{
-color: #f2f2f2;
-text-align: center;
-    bottom: 5px;
-}
-}
-
-
-a.fhome:link
-{
-    color: #f2f2f2;
-       text-decoration: none;
-}
-a.fhome:hover
-{
-color: #f2f2f2;
     text-decoration: none;
 }
-a.fhome:visited
-{
-color: #f2f2f2;
+a.fhome:hover {
+    color: #f2f2f2;
     text-decoration: none;
 }
-a.fhome:active
-{
-color: #f2f2f2;
+a.fhome:visited {
+    color: #f2f2f2;
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
+a.fhome:active {
+    color: #f2f2f2;
+    text-decoration: none;
+}
 @font-face {
-  font-family: "OptimaLTStd";
-    src: url(fonts/OptimaLTStd.otf) format("opentype");}
-
-a.fmenutext
-{
-    color: #f2f2f2;}
-a.fmenutext:hover
-{
-color: #f2f2f2;
+    font-family: "OptimaLTStd";
+    src: url(fonts/OptimaLTStd.otf) format("opentype");
+}
+a.fmenutext {
+    color: #f2f2f2;
+}
+a.fmenutext:hover {
+    color: #f2f2f2;
 }

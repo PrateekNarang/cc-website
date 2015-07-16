@@ -55,13 +55,13 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                         <a href="<?php cc_root_path();?>/about" class="fmenutext"> About</a>    
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 fmenu">
-                         <a href="#" class="fmenutext"> Services</a>    
+                         <a href="<?php cc_root_path();?>/service" class="fmenutext"> Services</a>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 fmenu">
                           <a href="#" class="fmenutext"> Education</a>    
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 fmenu">
-                           <a href="#" class="fmenutext"> Blog</a>    
+                           <a href="<?php cc_root_path();?>/blog" class="fmenutext"> Blog</a>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 fmenu">
                           <a href="<?php cc_root_path();?>/career" class="fmenutext"> Career</a>    

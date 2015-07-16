@@ -66,7 +66,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                           </a>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 menu">
-                           <a href="#">
+                           <a href="<?php cc_root_path();?>/service">
                             <img src="<?php echo "$wp_path";?>/images/about/service_black.png" height="55px" width="65px" style=" top: 7px;position: absolute; top: 7px; left:6vw">
                             <div id="about">
                                 <img src="<?php echo "$wp_path";?>/images/about/service.png" height="55px" width="65px" id="service">
@@ -82,7 +82,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                             </a>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 menu">
-                           <a href="#">
+                           <a href="<?php cc_root_path();?>/blog">
                             <img src="<?php echo "$wp_path";?>/images/about/blog_black.png" height="55px" width="80px" style=" top: 7px;position: absolute; top: 7px; left:5.5vw">
                             <div id="aboutblog">
                                 <img src="<?php echo "$wp_path";?>/images/about/blog.png" height="55px" width="80px" id="blog">
@@ -112,7 +112,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                                 About
                             </div>
                         </a>
-                        <a href="#" class="menutext">
+                        <a href="<?php cc_root_path();?>/service" class="menutext">
                             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 menu1">
                                 Services
                             </div>
@@ -122,7 +122,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                                 Education
                             </div>
                         </a>
-                        <a href="#" class="menutext">
+                        <a href="<?php cc_root_path();?>/blog" class="menutext">
                             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 menu1">
                                 Blog
                             </div>
