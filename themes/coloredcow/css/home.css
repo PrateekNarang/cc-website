@@ -66,6 +66,10 @@ a.subtext:hover {
     font-family: "Oswald-Regular";
     src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/Oswald-Regular.ttf) format("truetype");
 }
+.buttonpad
+{
+padding: 10px;
+}
 .cc {
     font-family: "HelveticaNeue";
     font-size: 3.2em;
@@ -109,12 +113,7 @@ a.cclink:active {
 .blank {
     height: 10em;
 }
-.grass {
-    width: 100%;
-    position: absolute;
-    bottom: -115px;
-    left: -2px;
-}
+
 .lable {
     padding-top: 4.6em;
 }
@@ -132,22 +131,7 @@ a.cclink:active {
 #aboutblog:hover {
     left: 5.5vw;
 }
-.aftergrass {
-    height: 4em;
-}
-#triangle-down2 {
-    width: 0;
-    height: 0;
-    border-left: 1.7em solid transparent;
-    border-right: 1.7em solid transparent;
-    border-top: 2.5em solid #19364b;
-}
-.lowertraingle {
-    height: 4em;
-}
-.afterlowertriangle {
-    height: 5em;
-}
+
 @font-face {
     font-family: "OptimaLTStd";
     src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/OptimaLTStd.otf) format("opentype");
@@ -165,7 +149,7 @@ a.cclink:active {
         text-align: center;
         color: #000000;
         font-family: "UniversLTStd";
-        font-size: 30px;
+        font-size: 25px;
     }
     .star {
         width: 50%;
@@ -179,7 +163,7 @@ a.cclink:active {
     }
     .product {
         width: 80%;
-        height: 250px;
+
         background-color: #a34ea0;
     }
     .productside {
@@ -188,7 +172,7 @@ a.cclink:active {
     }
         .producthead {
         top: -15px;
-        height: 30px;
+
         background-color: #055053;
         width: 50%;
         color: #f2f2f2;
@@ -245,7 +229,7 @@ border: 2px solid #febe3f  ;
     }
     .product {
         width: 70%;
-        height: 400px;
+
         background-color: #a34ea0;
     }
     .productside {
@@ -254,7 +238,7 @@ border: 2px solid #febe3f  ;
     }
     .producthead {
         top: -25px;
-        height: 50px;
+
         background-color: #055053;
         width: 50%;
         color: #f2f2f2;
@@ -313,4 +297,105 @@ a.shoot:active {
 }
 .afterstar {
     height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+#triangle-down2 {
+	width: 0;
+	height: 0;
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-top: 1.5em solid  #19364b;
+}
+.lowertraingle
+{
+height: 2em;
+}
+.afterlowertriangle
+{
+height: 3em;
+}
+    .aftergrass
+{
+height: 2em;
+}
+
+
+.lowertext
+{
+background-color: #2b2c30;
+
+    padding: 20px 0;
+
+}
+
+.divtext
+{
+    color: #f2f2f2;
+    font-size: 13px;
+    font-family:  "TimesLTStd-Roman";
+    text-align: center;
+}
+    .afterbox
+{
+height: 7em;
+
+}
+}
+@media only screen and (min-width: 768px) {
+#triangle-down2 {
+	width: 0;
+	height: 0;
+	border-left: 1.7em solid transparent;
+	border-right: 1.7em solid transparent;
+	border-top: 2.5em solid  #19364b;
+}
+.lowertraingle
+{
+height: 4em;
+}
+.afterlowertriangle
+{
+height: 10em;
+}
+    .aftergrass
+{
+height: 4em;
+}
+
+.lowerspace
+{
+height: 4em;
+}
+.lowertext
+{
+background-color: #2b2c30;
+
+    padding: 40px 0;;
+
+}
+
+.divtext
+{
+    color: #f2f2f2;
+    font-size: 24px;
+    font-family:  "TimesLTStd-Roman";
+    text-align: center;
+}
+    .afterbox
+{
+height: 30em;
+
+}
 }

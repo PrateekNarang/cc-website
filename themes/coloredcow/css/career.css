@@ -15,6 +15,208 @@
   font-family: "UniversLTStd";
   src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/UniversLTStd.otf) format("opentype");
 }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .bluefilled
+{
+width: 70%;
+background-color: #055053;
+top: -10px;
+height: 20px;
+    color: #f2f2f2;
+    font-family: BebasNeueRegular;
+    font-size: 18px;
+    text-align: center;
+}
+.bluefilledap
+{
+width: 70%;
+background-color: #055053;
+top: -22px;
+height: 44px;
+    color: #f2f2f2;
+    font-family: BebasNeueRegular;
+    font-size: 18px;
+    text-align: center;
+}
+    .xsspace
+{
+
+    width: 25%;
+}
+.xsbox
+{
+    height: 120px;
+    width: 50%;
+    background-color: #febe3f;
+}
+    .box{
+height: 160px;
+background-color: #febe3f;
+width: 26.6%;}
+    .boxtext
+{
+    top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    font-family: UniversLTStd;
+    font-size: 15px;
+    position: absolute;
+
+}
+#triangle-down2 {
+	width: 0;
+	height: 0;
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-top: 1.5em solid  #fbb03b;
+}
+.lowertraingle
+{
+height: 2em;
+}
+.afterlowertriangle
+{
+height: 3em;
+}
+    .aftergrass
+{
+height: 2em;
+}
+
+
+.lowertext
+{
+background-color: #2b2c30;
+
+    padding: 20px 0;
+
+}
+
+.divtext
+{
+    color: #f2f2f2;
+    font-size: 13px;
+    font-family:  "TimesLTStd-Roman";
+    text-align: center;
+}
+    .afterbox
+{
+height: 7em;
+
+}
+}
+@media only screen and (min-width: 768px) {
+    .bluefilled
+{
+width: 70%;
+background-color: #055053;
+top: -20px;
+height: 40px;
+    color: #f2f2f2;
+    font-family: BebasNeueRegular;
+    font-size: 27px;
+    text-align: center;
+}
+.bluefilledap
+{
+width: 70%;
+background-color: #055053;
+top: -40px;
+height: 80px;
+    color: #f2f2f2;
+    font-family: BebasNeueRegular;
+    font-size: 30px;
+    text-align: center;
+}
+    .xsspace
+{
+height: 20em;
+    width: 25%;
+}
+.xsbox
+{
+height: 20em;
+    width: 50%;
+    background-color: #febe3f;
+}
+    .box{
+height: 20em;
+background-color: #febe3f;
+width: 26.6%;}
+    .boxtext
+{top: 3em;
+    padding: 30px;
+    text-align: center;
+    color: #000000;
+    font-family: UniversLTStd;
+    font-size: 22px;
+    position: absolute;
+
+}
+#triangle-down2 {
+	width: 0;
+	height: 0;
+	border-left: 1.7em solid transparent;
+	border-right: 1.7em solid transparent;
+	border-top: 2.5em solid  #fbb03b;
+}
+.lowertraingle
+{
+height: 4em;
+}
+.afterlowertriangle
+{
+height: 10em;
+}
+    .aftergrass
+{
+height: 4em;
+}
+
+.lowerspace
+{
+height: 4em;
+}
+.lowertext
+{
+background-color: #2b2c30;
+
+    padding: 40px 0;;
+
+}
+
+.divtext
+{
+    color: #f2f2f2;
+    font-size: 24px;
+    font-family:  "TimesLTStd-Roman";
+    text-align: center;
+}
+    .afterbox
+{
+height: 30em;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
 .menu
 {
 height: 5em;
@@ -120,14 +322,7 @@ height:4.4em;
 {
 height: 10em;
 }
-.grass
-{
 
-width: 100%;
-    position: absolute;
-    bottom:-115px;
-left: -2px;
-}
 .lable
 {
 padding-top: 4.6em;
@@ -148,35 +343,14 @@ padding-top: 4.6em;
 #aboutblog:hover {
     left:5.5vw;
 }
-.aftergrass
-{
-height: 4em;
-}
-#triangle-down2 {
-	width: 0; 
-	height: 0; 
-	border-left: 1.7em solid transparent;
-	border-right: 1.7em solid transparent;
-	border-top: 2.5em solid  #fbb03b;
-}
-.lowertraingle
-{
-height: 4em;
-}
-.afterlowertriangle
-{
-height: 10em;
-}
+
 .spaceo{
 height: 20em;
 width: 5%;}
 .spacei{
 height: 20em;
 width: 5%;}
-.box{
-height: 20em;
-background-color: #febe3f;
-width: 26.6%;}
+
 .smspace{
 height: 20em;
 width: 10%;}
@@ -193,17 +367,7 @@ width: 32.5%;
 {
 height: 5em;
 }
-.xsspace
-{
-height: 20em;
-    width: 25%;
-}
-.xsbox
-{
-height: 20em;
-    width: 50%;
-    background-color: #febe3f;
-}
+
 .bluespace
 {
     width: 15%;
@@ -216,17 +380,7 @@ height: 20em;
   font-family: "UniversLTStd";
   src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/UniversLTStd.otf) format("opentype");
 }
-.bluefilled
-{
-width: 70%;
-background-color: #055053;
-top: -20px;
-height: 40px;
-    color: #f2f2f2;
-    font-family: BebasNeueRegular;
-    font-size: 27px;
-    text-align: center;
-}
+
 a.bodylink
 {
     color: #f2f2f2;}
@@ -235,76 +389,113 @@ a.bodylink:hover
 color: #f2f2f2;
     text-decoration: none;
 }
-.bluefilledap
-{
-width: 70%;
-background-color: #055053;
-top: -40px;
-height: 80px;
-    color: #f2f2f2;
-    font-family: BebasNeueRegular;
-    font-size: 30px;
-    text-align: center;
-}
+
 @font-face {
   font-family: "UniversLTStd";
   src: url(fonts/UniversLTStd.otf) format("opentype");
 }
-.boxtext
-{top: 3em;
-    padding: 30px;
-    text-align: center;
-    color: #000000;
-    font-family: UniversLTStd;
-    font-size: 22px;
-    position: absolute;
 
-}
+
+
+
+
+
+
+
+
 
 
 
 
 @font-face {
-  font-family: "OptimaLTStd";
-    src: url(fonts/OptimaLTStd.otf) format("opentype");}
-.footer
-{
-background-color: #29465E;
-    height: 17em;
+    font-family: "HelveticaNeue";
+    src: url(fonts/HelveticaNeueLTStd-Th.otf) format("truetype");
 }
-.fheading
-{
-font-size: 40px;
-    color: #f2f2f2;
-text-align: center;
-    height: 75px;
-    font-family: HelveticaNeue;
-}
-.ftext
-{   
-    color: #f2f2f2;
-    font-family:  OptimaLTStd;
-    font-size: 23px;
-    text-align: center;
-    height: 80px;
-    padding: 10px;
-}
-.fspace
-{
- height: 55px;
-}
-.fmenu
-{
-color: #f2f2f2;
-text-align: center;
-    bottom: 5px;
-}
-a.fmenutext
-{
-    color: #f2f2f2;}
-a.fmenutext:hover
-{
-color: #f2f2f2;
-}
+@media only screen and (max-width: 900px) {
+    .footer {
+        background-color: #29465E;
+        width: 100%;
 
+    }
+    .fheading {
+        font-size: 25px;
+        color: #f2f2f2;
+        text-align: center;
 
+        font-family: HelveticaNeue;
+    }
+    .ftext {
+        color: #f2f2f2;
+        font-family: OptimaLTStd;
+        font-size: 12px;
+        text-align: center;
+
+        padding: 8px;
+    }
+    .fspace {
+        height: 25px;
+    }
+    .fmenu {
+        color: #f2f2f2;
+        text-align: center;
+        bottom: 5px;
+        font-size: 5px;
+    }
+}
+@media only screen and (min-width: 901px) {
+    .footer {
+        background-color: #29465E;
+        width: 100%;
+
+    }
+    .fheading {
+        font-size: 40px;
+        color: #f2f2f2;
+        text-align: center;
+
+        font-family: HelveticaNeue;
+    }
+    .ftext {
+        color: #f2f2f2;
+        font-family: OptimaLTStd;
+        font-size: 23px;
+        text-align: center;
+
+        padding: 20px;
+    }
+    .fspace {
+
+    }
+    .fmenu {
+        color: #f2f2f2;
+        text-align: center;
+        bottom: 5px;
+        font-size: 18px;
+    }
+}
+a.fhome:link {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.fhome:hover {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.fhome:visited {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.fhome:active {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+@font-face {
+    font-family: "OptimaLTStd";
+    src: url(fonts/OptimaLTStd.otf) format("opentype");
+}
+a.fmenutext {
+    color: #f2f2f2;
+}
+a.fmenutext:hover {
+    color: #f2f2f2;
+}

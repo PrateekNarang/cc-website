@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/HelveticaNeueLTStd-Th.otf) format("opentype");
+}
+@font-face {
+  font-family: "UniversLTStd";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/UniversLTStd.otf) format("opentype");
+}
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/Oswald-Regular.ttf) format("truetype");
+}
+.background
+{
+background-color: #479671;
+}
+.background2
+{
+
+background-color: #479671;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+.signaturetext
+{
+    padding: 65px 0;
+font-family: "Oswald-Regular";
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.grass
+{
+    width: 100%;
+    position: absolute;
+   top: -15px;
+    left: -1.5px;
+}
+#grass img{
+height: 20px;
+}
+#cycle img{
+height: 90px;
+    width: 130px;
+}
+.cycle
+{
+height: 90px;
+}
+.empty
+{
+height: 150px;
+}
+.homename
+{
+padding-top: 3px;
+}
+.header
+{
+height: 65px;
+    background-color: white;
+}
+a.homelink:link {
+    color: #f2f2f2;
+    text-decoration: none;
+      font-family: "HelveticaNeue";
+    font-size: 2em;
+  }
+a.homelink:hover {
+    color: #f2f2f2;
+    text-decoration: none;
+        font-size: 2em;
+}
+a.homelink:visited {
+    color: #f2f2f2;
+    text-decoration: none;
+        font-size: 2em;
+   }
+a.homelink:active {
+    color: #f2f2f2;
+    text-decoration: none;
+        font-size: 2em;
+   }
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+.signaturetext
+{
+    padding: 120px 0;
+font-family: "Oswald-Regular";
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.grass
+{
+    width: 100%;
+    position: absolute;
+   top: -25px;
+    left: -1.5px;
+}
+#grass img{
+height: 30px;
+}
+#cycle img{
+height: 150px;
+    width: 250px;
+}
+.cycle
+{
+height: 150px;
+}
+.empty
+{
+height: 250px;
+}
+    .homename
+{
+padding-top: 6px;
+}
+.header
+{
+height: 65px;
+    background-color: white;
+}
+a.homelink:link {
+    color: #f2f2f2;
+    text-decoration: none;
+      font-family: "HelveticaNeue";
+    font-size: 3.2em;
+  }
+a.homelink:hover {
+    color: #f2f2f2;
+    text-decoration: none;
+        font-size: 3.2em;
+}
+a.homelink:visited {
+    color: #f2f2f2;
+    text-decoration: none;
+        font-size: 3.2em;
+   }
+a.homelink:active {
+    color: #f2f2f2;
+    text-decoration: none;
+        font-size: 3.2em;
+   }
+}
+
+
+
+
+
+a.headertext:link {
+    color: black;
+    text-decoration: none;
+  }
+a.headertext:hover {
+    color: black;
+    text-decoration: none;
+  }
+a.headertext:visited {
+    color: black;
+    text-decoration: none;
+  }
+a.headertext:active {
+    color: black;
+    text-decoration: none;
+  }
+
+.menuname
+{
+    font-size: 15px;
+    background-color: white;
+    font-family: UniversLTStd;
+
+   height: 18px;
+}
+.submenuname
+{
+    font-size: 15px;
+    background-color: white;
+    font-family: UniversLTStd;
+
+   padding: 5px 0;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-top: 1em solid white;
+}

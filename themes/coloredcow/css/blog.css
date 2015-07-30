@@ -14,11 +14,7 @@
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing */
-
-  /* For visualization
-  background: #808080; width: 5px;
-  */
+  margin-right: -0.25em;
  }
 
 .centered {
@@ -178,12 +174,7 @@ a.cclink:active {
 .blank {
     height: 10em;
 }
-.grass {
-    width: 100%;
-    position: absolute;
-    bottom: -115px;
-    left: -2px;
-}
+
 .lable {
     padding-top: 4.6em;
 }
@@ -201,19 +192,7 @@ a.cclink:active {
 #aboutblog:hover {
     left: 5.5vw;
 }
-.aftergrass {
-    height: 4em;
-}
-#triangle-down2 {
-    width: 0;
-    height: 0;
-    border-left: 1.7em solid transparent;
-    border-right: 1.7em solid transparent;
-    border-top: 2.5em solid #4f7ed6;
-}
-.lowertraingle {
-    height: 4em;
-}
+
 @font-face {
     font-family: "FUTURALIGHT";
     src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/FUTURALIGHT.ttf) format("truetype");
@@ -444,5 +423,99 @@ a.bgtextl:active
 {
 color: #f2f2f2;
     text-decoration: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+#triangle-down2 {
+	width: 0;
+	height: 0;
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-top: 1.5em solid  #4f7ed6;
+}
+.lowertraingle
+{
+height: 2em;
+}
+.afterlowertriangle
+{
+height: 3em;
+}
+    .aftergrass
+{
+height: 2em;
+}
+
+
+.lowertext
+{
+background-color: #2b2c30;
+
+    padding: 20px 0;
+
+}
+
+.divtext
+{
+    color: #f2f2f2;
+    font-size: 13px;
+    font-family:  "TimesLTStd-Roman";
+    text-align: center;
+}
+    .afterbox
+{
+height: 7em;
+
+}
+}
+@media only screen and (min-width: 768px) {
+#triangle-down2 {
+	width: 0;
+	height: 0;
+	border-left: 1.7em solid transparent;
+	border-right: 1.7em solid transparent;
+	border-top: 2.5em solid  #4f7ed6;
+}
+.lowertraingle
+{
+height: 4em;
+}
+.afterlowertriangle
+{
+height: 10em;
+}
+    .aftergrass
+{
+height: 4em;
+}
+
+.lowerspace
+{
+height: 4em;
+}
+.lowertext
+{
+background-color: #2b2c30;
+
+    padding: 40px 0;;
+
+}
+
+.divtext
+{
+    color: #f2f2f2;
+    font-size: 24px;
+    font-family:  "TimesLTStd-Roman";
+    text-align: center;
+}
+    .afterbox
+{
+height: 30em;
+
+}
 }
 

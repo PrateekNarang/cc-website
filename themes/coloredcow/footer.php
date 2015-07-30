@@ -19,11 +19,11 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
   </head>
   <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo "$wp_path";?>js/bootstrap.min.js"></script>
       <div class="container-fluid">
-       <div class="row-fluid">
+       <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
-                    <div class="row-fluid">
+                    <div class="row">
               <div class="col-lg-2 col-md-2 col-sm-1 hidden-xs fheading">
               </div>
               <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 fheading">
