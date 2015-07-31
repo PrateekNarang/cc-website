@@ -21,7 +21,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
         <link href="<?php echo "$wp_path";?>/css/bootstrap.min.css" rel="stylesheet">
           <link href="<?php echo "$wp_path";?>/css/blogpostnew.css" rel="stylesheet">
         <link href="<?php echo "$wp_path";?>/css/blogpost.css" rel="stylesheet">
-        <link rel="icon" type="image/png" href="<?php echo "$wp_path";?>/images/blog/logo.png">
+        <link rel="icon" type="image/png" href="<?php echo "$wp_path";?>/images/logo.png">
     </head>
 
     <body>
@@ -49,10 +49,10 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 background">
                     <div class="row">
                         <div class="col-lg-1 col-md-1 col-sm-2 hidden-xs">
-                            <a href="<?php cc_home_path();?>"> <img src="<?php echo "$wp_path";?>/images/blog/logo.png" height="65px" width="60px" style="padding-top:10px; padding-left:9px;"></a>
+                            <a href="<?php cc_home_path();?>"> <img src="<?php echo "$wp_path";?>/images/logo.png" height="65px" width="60px" style="padding-top:10px; padding-left:9px;"></a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-5 col-xs-5">
-                            <p class="homename"> <a href="<?php cc_home_path();?>" class="homelink">ColoredCow</a></p>
+                            <p class="homename"> <a href="<?php cc_home_path();?>" class="homelink">coloredcow</a></p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
                         </div>
@@ -194,50 +194,48 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                         </div>
                     </div>
              </div>
-            </div>
-            </div>
 
-
-
-
-
-
-
-
-
-   <div class="row">
-                                    <div id="container3" class="outer">
-    <div id="container2">
-        <div id="container1" >
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 bga" id="col1">
-                            <div class="row">
-
-
-                                <div class="col-lg-12 col-m d-12 col-sm-12 col-xs-12">
-                                    <div class="circle" style="background-image: url(<?php echo "$wp_path";?>/images/blog/user.png);">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 an">
-                                    Abhishek Sharma
-                                </div>
-
-
-
-                            </div>
+               <div class="row">
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 empty">
+                                  <p class="signaturetext">Know More.<br>Word.</p>
+                                  </div>
+                                  </div>
+                                                      <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-7 col-xs-6">
                         </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 bgs" id="col2">
+                        <div class="col-lg-4 col-md-4 col-sm-5 col-xs-6 cycle" id="cycle" >
 
-
-
-            </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 bgt" id="col3">
-                                        <div class="bgtext inner"><?php echo $examplePost->post_title;?></div>
                         </div>
- </div
-    </div>
-</div>
+
+
+                    </div>
+                              <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6" id="grass">
+                            <img src="<?php echo "$wp_path";?>/images/blog/grass.png"  class="grass" />
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6" id="grass">
+                            <img src="<?php echo "$wp_path";?>/images/blog/grass.png"  class="grass" />
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs" id="grass">
+                            <img src="<?php echo "$wp_path";?>/images/blog/grass.png" class="grass" />
+                        </div>
+                        <div class="col-lg-3 col-md-3 hidden-sm hidden-xs" id="grass">
+                            <img src="<?php echo "$wp_path";?>/images/blog/grass.png" class="grass" />
+                                  </div>
+                                  </div>
             </div>
-     </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 afterlowertriangle">
+                </div>
+            </div>
+
+
+
+
+
+
 
 
 
@@ -259,17 +257,9 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                     </div>
                     <div class="row">
                     </div>
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-
-                </div>
-            </div>
-
-
-
 
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs other">
+                <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs other">
 
                     <div class="row">
                        <?php
@@ -300,13 +290,31 @@ $args = array(
                         <?php } ?>
                     </div>
                 </div>
+
+       </div>
+                </div>
                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                    <div class="row">
+
+
+
+
+   <div class="row">
+      <div class="col-xs-1">
+       </div>
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-10  bgt">
+                                        <div class="bgtext inner"><?php echo $examplePost->post_title;?></div>
+                        </div>
+
+            </div>
+                                <div class="row">
                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
                             <div class="blogtext">
-                            <?php echo apply_filters('the_content', $examplePost->post_content);?>
+                            <br>
+                            <?php echo apply_filters('the_content', $examplePost->post_content);
+                                ?>
                             </div>
                             <div class="blankspace">
                             </div>
@@ -329,7 +337,7 @@ $args = array(
                             </div>
                         </div>
                     </div>
-
+     </div>
 
 
 
@@ -337,7 +345,10 @@ $args = array(
 
 
                 </div>
-       </div>
+
+
+
+
 
 
             <div class="row">

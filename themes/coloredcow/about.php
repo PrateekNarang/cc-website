@@ -30,7 +30,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
         <link href="<?php echo "$wp_path";?>/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo "$wp_path";?>/css/aboutnew.css" rel="stylesheet">
         <link href="<?php echo "$wp_path";?>/css/about.css" rel="stylesheet">
-        <link rel="icon" type="image/png" href="<?php echo "$wp_path";?>/images/about/logo.png">
+        <link rel="icon" type="image/png" href="<?php echo "$wp_path";?>/images/logo.png">
     </head>
 
     <body>
@@ -42,7 +42,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 background">
                     <div class="row">
                         <div class="col-lg-1 col-md-1 col-sm-2 hidden-xs">
-                            <a href="<?php cc_home_path();?>"> <img src="<?php echo "$wp_path";?>/images/about/logo.png" height="65px" width="60px" style="padding-top:10px; padding-left:9px;"></a>
+                            <a href="<?php cc_home_path();?>"> <img src="<?php echo "$wp_path";?>/images/logo.png" height="65px" width="70px" style="padding-top:10px; padding-left:9px;"></a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-5 col-xs-5">
                             <p class="homename"> <a href="<?php cc_home_path();?>" class="homelink">ColoredCow</a></p>

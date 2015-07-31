@@ -21,48 +21,7 @@ color: black;
     text-decoration: none;
 }
 
-#container3 {
-    float:left;
-    width:100%;
-     background-color: #f66c3d;
-    overflow:hidden;
-    position:relative;
-}
-#container2 {
-    float:left;
-    width:100%;
-     background-color: #ad4a29;
-    position:relative;
-    right:60%;
-}
-#container1 {
-    float:left;
-    width:100%;
-     background-color: #f66c3d;
-    position:relative;
-    right:10%;
-}
-#col1 {
-    float:left;
-    width:26%;
-    position:relative;
-    left:72%;
-    overflow:hidden;
-}
-#col2 {
-    float:left;
-    width:6%;
-    position:relative;
-    left:76%;
-    overflow:hidden;
-}
-#col3 {
-    float:left;
-    width:56%;
-    position:relative;
-    left:80%;
-    overflow:hidden;
-}
+
 
 
 .ye {

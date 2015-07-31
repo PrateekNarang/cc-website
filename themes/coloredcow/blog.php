@@ -17,7 +17,7 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
         <link href="<?php echo "$wp_path";?>/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo "$wp_path";?>/css/blognew.css" rel="stylesheet">
         <link href="<?php echo "$wp_path";?>/css/blog.css" rel="stylesheet">
-        <link rel="icon" type="image/png" href="<?php echo "$wp_path";?>/images/blog/logo.png">
+        <link rel="icon" type="image/png" href="<?php echo "$wp_path";?>/images/logo.png">
     </head>
 
     <body>
@@ -45,10 +45,10 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 background">
                     <div class="row">
                         <div class="col-lg-1 col-md-1 col-sm-2 hidden-xs">
-                            <a href="<?php cc_home_path();?>"> <img src="<?php echo "$wp_path";?>/images/blog/logo.png" height="65px" width="60px" style="padding-top:10px; padding-left:9px;"></a>
+                            <a href="<?php cc_home_path();?>"> <img src="<?php echo "$wp_path";?>/images/logo.png" height="65px" width="70px" style="padding-top:10px; padding-left:9px;"></a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-5 col-xs-5">
-                            <p class="homename"> <a href="<?php cc_home_path();?>" class="homelink">ColoredCow</a></p>
+                            <p class="homename"> <a href="<?php cc_home_path();?>" class="homelink">coloredcow</a></p>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
                         </div>
@@ -236,43 +236,13 @@ $wp_path = 'http://coloredcow.in/wp/wp-content/themes/coloredcow';
                     </div>
                 </div>
             </div>
+
+
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 afterlowertriangle">
                 </div>
             </div>
-            <div class="row-fluid">
-                <div class="col-lg-4 col-md-4 col-sm-3 col-xs-2 crs">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 cr">
-                    <div class="crt">
-                        CURRENT READS
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-3 col-xs-2 crs">
-                </div>
-            </div>
-            <div class="row-fluid">
-                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 arrows">
-                    <div class="arrow">
-                        <center> <img src="<?php echo "$wp_path";?>/images/blog/arrow.png" class="arrowleft" /></center>
-                    </div>
-                </div>
-                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8 arrowm">
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 arrows">
-                    <div class="arrow">
-                        <center><img src="<?php echo "$wp_path";?>/images/blog/arrow.png" class="arrowright" /></center>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 afterlowertriangle">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aftercr">
-                </div>
-            </div>
+
 
 
 
