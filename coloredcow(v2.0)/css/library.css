@@ -1,0 +1,467 @@
+img[class*='wp-image']{max-width: 100%;
+    width: auto;
+    height: auto;
+}
+img[class*='wp-image']{ -ms-interpolation-mode: bicubic; }
+a.bloglist:link
+{
+    color: black;
+       text-decoration: none;
+}
+a.bloglist:hover
+{
+color: black;
+    text-decoration: underline;
+  
+}
+a.bloglist:visited
+{
+color: black;
+    text-decoration: none;
+}
+a.bloglist:active
+{
+color: black;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "MYRIADPRO-BOLD";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/MYRIADPRO-BOLD.OTF) format("opentype");
+}
+
+@font-face {
+    font-family: "MYRIADPRO-REGULAR";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/MYRIADPRO-REGULAR.OTF) format("opentype");
+}
+
+
+.ye {
+    background-color: #96b2f7;
+    
+}
+.he {
+    height: 6em;
+}
+@font-face {
+    font-family: "UniversLTStd";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/UniversLTStd.otf) format("opentype");
+}
+.menu {
+    height: 5em;
+    background-color: white;
+    padding-top: 7px;
+    text-align: center;
+}
+.menu1 {
+    height: 2em;
+    background-color: white;
+    padding-top: 4px;
+    text-align: center;
+    font-family: UniversLTStd;
+}
+a.menutext {
+    color: black;
+}
+a.menutext:hover {
+    color: black;
+}
+a.subtext {
+    color: black;
+}
+a.subtext:hover {
+    color: black;
+    text-decoration: none;
+}
+.submenuspace {
+    height: 1em;
+}
+.submenu {
+    height: 2.5em;
+    background-color: white;
+    padding-top: 8px;
+    text-align: center;
+    transition: all 5s ease;
+}
+.dropdown {
+    margin-left: 4.2vw;
+}
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-top: 1em solid white;
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/HelveticaNeueLTStd-Th.otf) format("truetype");
+}
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/Oswald-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "BebasNeueRegular";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/BebasNeueRegular.ttf) format("truetype");
+}
+.cc {
+    font-family: "HelveticaNeue";
+    font-size: 3.2em;
+    padding-top: 6px;
+}
+a.cclink:link {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:hover {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:visited {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:active {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.cast {
+    font-family: "Oswald-Regular";
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+.text {
+    height: 4.4em;
+}
+.blank {
+    height: 10em;
+}
+.grass {
+    width: 100%;
+    position: absolute;
+    bottom: -115px;
+    left: -2px;
+}
+.lable {
+    padding-top: 4.6em;
+}
+#about {
+    left: 6.2vw;
+    position: absolute;
+}
+#about:hover {
+    left: 6vw;
+}
+#aboutblog {
+    left: 5.7vw;
+    position: absolute;
+}
+#aboutblog:hover {
+    left: 5.5vw;
+}
+.aftergrass {
+    height: 4em;
+}
+#triangle-down2 {
+    width: 0;
+    height: 0;
+    border-left: 1.7em solid transparent;
+    border-right: 1.7em solid transparent;
+    border-top: 2.5em solid #4f7ed6;
+}
+.lowertraingle {
+    height: 4em;
+}
+@font-face {
+    font-family: "FUTURALIGHT";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/FUTURALIGHT.ttf) format("truetype");
+}
+@media only screen and (max-width: 900px) {
+    .afterlowertriangle {
+        height: 5em;
+    }
+    .aftercr {
+        height: 2em;
+    }
+    .afterbg {
+        height: 200px;
+    }
+    .arrowleft {
+        height: 20px;
+        width: 8px;
+    }
+    .cr {
+        background-color: #9b6e60;
+        height: 30px;
+        width: 30%;
+    }
+    .crs {
+        background-color: #9b6e60;
+        height: 30px;
+        width: 40%;
+    }
+    .crt {
+        font-size: 20px;
+        font-family: "BebasNeueRegular";
+        color: #f2f2f2;
+        text-align: center;
+    }
+    .arrows {
+        background-color: #9b6e60;
+        width: 15%;
+        height: 100px;
+    }
+    .arrowm {
+        background-color: #9b6e60;
+        width: 70%;
+        height: 100px;
+    }
+    .arrow {
+        padding-top: 40px;
+    }
+    .bga {
+        background-color: #f66c3d;
+        
+    }
+    .bgs {
+        background-color: #ad4a29;
+        
+    }
+    .bgt {
+        background-color: #f66c3d;
+       
+    }
+    .bgtext {
+        
+        text-align: center;
+        color: #f2f2f2;
+        font-size: 20px;
+        font-family: "FUTURALIGHT";
+        padding: 10px;
+    }
+    .circle {
+        display: block;
+        width: 75px;
+        height: 75px;
+        margin: 1em auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-border-radius: 99em;
+        -moz-border-radius: 99em;
+        border-radius: 99em;
+        border: 3px none #000;
+       
+    }
+    .an {
+        color: #000000;
+        font-family: "Arimo";
+        font-size: 16px;
+        text-align: center;
+    }
+        .also {
+        font-size: 20px;
+        text-align: center;
+        color: #f2f2f2;
+        font-family: "UniversLTStd";
+    }
+
+    .alr {
+        background-color: #96b2f7;
+    }
+    .other
+    {
+    background-color: #e6e6e6;
+       font-size: 13px;
+        text-align: center;
+  
+    }
+    
+    .blogtext
+    {
+        color: #000000;
+        font-size: 15px;
+        font-family: "FUTURALIGHT";
+    }
+        .blankspace
+    {
+    height: 15px;
+    }
+        .user
+    {
+    width: 20px;
+    }
+    .blogpad
+{
+                padding: 3px 0;
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        border-bottom-color: #f2f2f2;
+}
+       .jobtop
+{
+
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    font-family: "MYRIADPRO-BOLD";
+} .joblow
+{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+   font-family: "MYRIADPRO-REGULAR";
+}
+    
+    
+    
+    
+}
+@media only screen and (min-width: 901px) {
+    .jobtop
+{
+
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    font-family: "MYRIADPRO-BOLD";
+}.joblow
+{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "MYRIADPRO-REGULAR";
+}
+    .afterlowertriangle {
+        height: 2em;
+    }
+    .aftercr {
+        height: 100px;
+    }
+    .afterbg {
+        height: 400px;
+    }
+    .cr {
+        background-color: #9b6e60;
+        height: 50px;
+        width: 30%;
+    }
+    .crs {
+        background-color: #9b6e60;
+        height: 50px;
+        width: 40%;
+    }
+    .crt {
+        font-size: 35px;
+        font-family: "BebasNeueRegular";
+        color: #f2f2f2;
+        text-align: center;
+    }
+    .arrows {
+        background-color: #9b6e60;
+        width: 10%;
+        height: 200px;
+    }
+    .arrowm {
+        background-color: #9b6e60;
+        width: 80%;
+        height: 200px;
+    }
+    .bga {
+        background-color: #f66c3d;
+      
+    }
+    .bgs {
+        background-color: #ad4a29;
+        
+    }
+    .bgt {
+        background-color: #f66c3d;
+       
+    }
+    .bgtext {
+       
+        text-align: center;
+        color: #f2f2f2;
+        font-size: 40px;
+        font-family: "FUTURALIGHT";
+        padding: 20px;
+    }
+    .circle {
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 1em auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-border-radius: 99em;
+        -moz-border-radius: 99em;
+        border-radius: 99em;
+        border: 3px none #000;
+        box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+    }
+    .an {
+        color: #000000;
+        font-family: "Arimo";
+        font-size: 25px;
+        text-align: center;
+    }
+    .also {
+        width: 85%;
+        font-size: 25px;
+        padding: 5px;
+        text-align: center;
+        color: #f2f2f2;
+        font-family: "UniversLTStd";
+    }
+    .arr {
+        width: 15%;padding: 4px;
+    }
+    .alr {
+        background-color: #96b2f7;
+    }
+    .other
+    {
+    background-color: #e6e6e6;
+       font-size: 18px;
+        text-align: center;
+
+    }
+    .blogtext
+    {
+        color: #000000;
+        font-size: 20px;
+        font-family: "FUTURALIGHT";
+    }
+    .blankspace
+    {
+    height: 35px;
+    }
+    .user
+    {
+    width: 35px;
+    }
+    .blogpad
+{
+                padding: 7px 0;
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        border-bottom-color: #f2f2f2;
+}
+}
+a.btitle
+{
+color: black;
+}
+a.btitle:active
+{
+color: black;
+}
+a.btitle:hover
+{
+color: black;
+    text-decoration: none;
+}

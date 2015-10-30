@@ -1,0 +1,1279 @@
+.ye {
+    background: #1083CE url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/dots.png);
+    background-position: 10em 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40em;
+}
+.he {
+    height: 6em;
+}
+@font-face {
+    font-family: "UniversLTStd";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/UniversLTStd.otf) format("opentype");
+}
+@font-face {
+    font-family: "FUTURALIGHT";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/FUTURALIGHT.ttf) format("truetype");
+}
+@font-face {
+    font-family: "FuturaStd-Book";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/FuturaStd-Book.otf) format("opentype");
+}
+@font-face {
+    font-family: "Arimo-Regular";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/Arimo-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "MYRIADPRO-REGULAR";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/MYRIADPRO-REGULAR.OTF) format("opentype");
+}
+@font-face {
+    font-family: "MYRIADPRO-LIGHT";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/MYRIADPRO-LIGHT.OTF) format("opentype");
+}
+.menu {
+    height: 5em;
+    background-color: white;
+    padding-top: 7px;
+    text-align: center;
+}
+.menu1 {
+    height: 2em;
+    background-color: white;
+    padding-top: 4px;
+    text-align: center;
+    font-family: "UniversLTStd";
+}
+a.menutext {
+    color: black;
+}
+a.menutext:hover {
+    color: black;
+}
+a.subtext {
+    color: black;
+}
+a.subtext:hover {
+    color: black;
+    text-decoration: none;
+}
+.submenuspace {
+    height: 1em;
+}
+.submenu {
+    height: 2.5em;
+    background-color: white;
+    padding-top: 8px;
+    text-align: center;
+    transition: all 5s ease;
+}
+.dropdown {
+    margin-left: 4.2vw;
+}
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-top: 1em solid white;
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/HelveticaNeueLTStd-Th.otf) format("truetype");
+}
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/Oswald-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Amaranth";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/AMARANTH-REGULAR.OTF) format("opentype");
+}
+.buttonpad
+{
+padding: 10px;
+}
+.cc {
+    font-family: "HelveticaNeue";
+    font-size: 3.2em;
+    padding-top: 6px;
+}
+a.cclink:link {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:hover {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:visited {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:active {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+@media only screen and (max-width: 900px) {
+    .cast {
+        font-family: "Oswald-Regular";
+        font-size: 2em;
+        color: white;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 901px) {
+    .cast {
+        font-family: "Oswald-Regular";
+        font-size: 3em;
+        color: white;
+        text-align: center;
+    }
+}
+.text {
+    height: 4.4em;
+}
+.blank {
+    height: 10em;
+}
+
+.lable {
+    padding-top: 4.6em;
+}
+#about {
+    left: 6.2vw;
+    position: absolute;
+}
+#about:hover {
+    left: 6vw;
+}
+#aboutblog {
+    left: 5.7vw;
+    position: absolute;
+}
+#aboutblog:hover {
+    left: 5.5vw;
+}
+
+@font-face {
+    font-family: "OptimaLTStd";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/OptimaLTStd.otf) format("opentype");
+}
+@font-face {
+    font-family: "OptimaLTStd-DemiBold";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/OptimaLTStd-DemiBold.otf) format("opentype");
+}
+@font-face {
+    font-family: "BebasNeueRegular";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/BebasNeueRegular.ttf) format("truetype");
+}
+@media only screen and (max-width: 900px) {
+    .expandside {
+        width: 10%;
+    }
+    .expand {
+        width: 80%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 25px;
+    }
+        .expand:hover {
+letter-spacing: .3px;
+    }
+    
+    .star {
+        width: 50%;
+        color: #000000;
+        font-size: 17px;
+        text-align: center;
+        font-family: "OptimaLTStd";
+    }
+    .starside {
+        width: 25%;
+    }
+    .product {
+        width: 80%;
+        
+        background-color: #a34ea0;
+    }
+    .productside {
+        width: 10%;
+        height: 250px;
+    }
+        .producthead {
+        top: -15px;
+        
+        background-color: #055053;
+        width: 50%;
+        color: #f2f2f2;
+        font-family: "BebasNeueRegular";
+        text-align: center;
+        font-size: 15px;
+        padding: 3.5px;
+    }
+    .productheadside {
+        top: -15px;
+        height: 30px;
+        width: 30%;
+    }
+        .mmn
+    {
+        color: #000000;
+        font: 20.99px AveriaSerif;
+        text-align: center;
+        height: 180px;
+    }
+
+    
+}
+@media only screen and (min-width: 901px) {
+    ..expandside {
+        width: 10%;
+    }
+    .expand {
+        width: 80%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 42px;
+        letter-spacing: 0;
+            -webkit-transition: letter-spacing .8s; /* For Safari 3.1 to 6.0 */
+    transition: letter-spacing .8s;
+    }
+        .expand:hover {
+letter-spacing: 5px;
+    }
+    .star {
+        width: 50%;
+        color: #000000;
+        font-size: 30px;
+        text-align: center;
+        font-family: "OptimaLTStd";
+    }
+    .starside {
+        width: 25%;
+    }
+    .product {
+        width: 70%;
+        
+        background-color: #a34ea0;
+    }
+    .productside {
+        width: 15%;
+        height: 400px;
+    }
+    .producthead {
+        top: -25px;
+      
+        background-color: #055053;
+        width: 50%;
+        color: #f2f2f2;
+        font-family: "BebasNeueRegular";
+        text-align: center;
+        font-size: 25px;
+        padding: 5px;
+    }
+    .productheadside {
+        width: 25%;
+        top: -15px;
+        height: 30px;
+    }
+    .mmn
+    {
+        color: #000000;
+        font: 28.99px AveriaSerif;
+        text-align: center;
+        height: 300px;
+    }
+
+
+}
+a.shoot:link {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #1083CE;
+}
+a.shoot:hover {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #1083CE;
+}
+a.shoot:visited {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #1083CE;
+}
+a.shoot:active {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #1083CE;
+}
+.mid {
+    height: 1em;
+}
+.afterstar {
+    height: 250px;
+}
+
+
+@media only screen and (max-width: 767px) { 
+#triangle-down2 {
+	width: 0; 
+	height: 0; 
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-top: 1.5em solid  #19364b;
+}
+.lowertraingle
+{
+height: 2em;
+}
+.afterlowertriangle
+{
+height: 3em;
+}
+    .aftergrass
+{
+height: 2em;
+}
+    
+
+.lowertext
+{
+background-color: #2b2c30;
+
+    padding: 20px 0;
+
+}
+
+.divtext
+{
+    color: #f2f2f2;
+    font-size: 13px;
+    font-family:  "TimesLTStd-Roman";
+    text-align: center;
+}
+    .afterbox
+{
+height: 7em;
+
+}
+}
+@media only screen and (min-width: 768px) {
+#triangle-down2 {
+	width: 0; 
+	height: 0; 
+	border-left: 1.7em solid transparent;
+	border-right: 1.7em solid transparent;
+	border-top: 2.5em solid  #19364b;
+}
+.lowertraingle
+{
+height: 4em;
+}
+.afterlowertriangle
+{
+height: 5em;
+}
+    .aftergrass
+{
+height: 4em;
+}
+    
+.lowerspace
+{
+height: 4em;
+}
+.lowertext
+{
+background-color: #2b2c30;
+
+    padding: 40px 0;;
+
+}
+
+.divtext
+{
+    color: #f2f2f2;
+    font-size: 24px;
+    font-family:  "TimesLTStd-Roman";
+    text-align: center;
+}
+    .afterbox
+{
+height: 30em;
+
+}
+}
+
+
+.grey
+{
+background-color: #e6e6e6;
+}
+
+
+
+
+
+
+.mmnside
+{
+width: 20%;
+}
+
+@media only screen and (min-width: 1200px){
+        .symbol
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/loop_big.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    -ms-interpolation-mode: bicubic; 
+}
+.op
+{
+    background-color: black;
+    color: #f2f2f2;
+     font-family: "BebasNeueRegular";
+    padding: 7px 20px 7px 20px;
+    font-size: 35px;
+    text-align: center;
+}
+.mmntitle
+{
+ text-align: left;
+    padding-top: 10px;
+    font-size: 48px;
+     font-family: "Amaranth";
+       color:  black;
+}
+  .mmntext2
+{
+ text-align: left;
+    padding-top: 30px; 
+    padding-right: 20px;
+    font-size: 38px;
+     font-family: "FuturaStd-Book";
+    color:  black;
+    font-weight: 300;
+}  
+.mmntext
+{
+ text-align: left;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    font-size: 24px;
+     font-family: "FuturaStd-Book";
+    color:  black;
+}
+    a.learn {
+        color: #ed1e79;
+        font-size: 30px;
+          font-family: "FuturaStd-Book";
+        text-decoration: underline;
+}  
+        a.learn:hover {
+        color: #ed1e79;
+        text-decoration: underline;
+}  
+        a.learn:visited {
+        color: #ed1e79;
+        text-decoration: underline;
+}  
+    .more
+    {
+            padding-bottom: 200px;
+    }
+    .mmnproduct
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/windmill.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+}
+        .expandlow {
+        width: 90%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 40px;
+            margin-top: 100px;
+    }
+    .expandlower {
+        width: 80%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    .ot
+{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: "Arimo-Regular";
+}
+.btitled
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+     text-align: center;
+    border-bottom:  1px solid;
+    font-family: "MYRIADPRO-REGULAR";
+}
+.auth
+{
+     text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+      font-family: "MYRIADPRO-LIGHT";
+}
+a.btitle
+{
+font-size: 24px;
+    font-family: "MYRIADPRO-REGULAR";
+    color: black;
+}
+a.btitle:hover
+{
+font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+        .but
+    {    margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    background-color: #333333;
+        color: #f2f2f2;
+        border: none;
+            font-family: "FUTURALIGHT";
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    
+    
+    .base
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/base.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+
+}
+.basetext
+{
+    text-align: center;
+    font-family: "OptimaLTStd";
+    font-size: 25px;
+    color: #f2f2f2;
+    margin-top: 85px; 
+}
+
+}
+@media only screen and (min-width: 990px) and (max-width: 1199px) {
+            .symbol
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/loop_big.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    -ms-interpolation-mode: bicubic; 
+}
+.op
+{
+    background-color: black;
+    color: #f2f2f2;
+     font-family: "BebasNeueRegular";
+    padding: 7px 16px 7px 16px;
+    font-size: 15px;
+    text-align: center;
+}
+.mmntitle
+{
+ text-align: left;
+    padding-top: 32px;
+    font-size: 40px;
+     font-family: "Amaranth";
+    color:  black;
+}
+  .mmntext2
+{
+ text-align: left;
+    padding-top: 20px; 
+    padding-right: 20px;
+    font-size: 32px;
+     font-family: "FuturaStd-Book";
+    color:  black;
+    font-weight: 300;
+}  
+    .mmntext
+{
+text-align: left;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+ font-family: "FuturaStd-Book";
+    color:  black;
+}
+    a.learn {
+        color: #ed1e79;
+        font-size: 26px;
+          font-family: "FuturaStd-Book";
+        text-decoration: underline;
+}  
+        a.learn:hover {
+        color: #ed1e79;
+        text-decoration: underline;
+}  
+        a.learn:visited {
+        color: #ed1e79;
+        text-decoration: underline;
+}  
+        .more
+    {
+            padding-bottom: 200px;
+    }
+    .mmnproduct
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/windmill.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+}
+        .expandlow {
+        width: 90%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 35px;
+    }
+    .expandlower {
+        width: 80%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 30px;
+    }
+    .ot
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    color: black;
+    font-family: "Arimo-Regular";
+    margin-top: 25px;
+    margin-bottom: 25px;   
+}
+.btitled
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+     text-align: center;
+    border-bottom:  1px solid;
+    font-family: "MYRIADPRO-REGULAR";
+}
+.auth
+{
+     text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+      font-family: "MYRIADPRO-LIGHT";
+}
+a.btitle
+{
+font-size: 24px;
+     font-family: "MYRIADPRO-REGULAR";
+    color: black;
+}
+a.btitle:hover
+{
+font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+  .but
+    {    margin-top: 25px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #333333;
+        color: #f2f2f2;
+        border: none;
+        font-family: "FUTURALIGHT";
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+        .base
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/base.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+    background-size: contain;
+
+}
+.basetext
+{
+    text-align: center;
+    font-family: "OptimaLTStd";
+    font-size: 22px;
+    color: #f2f2f2;
+    margin-top: 70px; 
+}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+            .symbol
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/loop_tablet.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    -ms-interpolation-mode: bicubic; 
+}
+.op
+{
+    background-color: black;
+    color: #f2f2f2;
+     font-family: "BebasNeueRegular";
+    padding: 5px 12px 5px 12px;
+    font-size: 11px;
+    text-align: center;
+}
+.mmntitle
+{
+ text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 35px;
+     font-family: "Amaranth";
+    color:  black;
+}
+.mmntext
+{
+ text-align: left;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    font-size: 18px;
+   font-family: "FuturaStd-Book";
+    color:  black;
+}   
+.mmntext2
+{
+ text-align: left;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    font-size: 25px;
+   font-family: "FuturaStd-Book";
+    color:  black;
+        font-weight: 300;
+}
+    a.learn {
+        color: #ed1e79;
+        font-size: 20px;
+          font-family: "FuturaStd-Book";
+        text-decoration: underline;
+}  
+        a.learn:hover {
+        color: #ed1e79;
+        font-size: 20px;
+        text-decoration: underline;
+}  
+        a.learn:visited {
+        color: #ed1e79;
+        font-size: 20px;
+        text-decoration: underline;
+}  
+        .more
+    {
+            padding-bottom: 130px;
+    }  
+    .mmnproduct
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/windmill.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+}
+            .expandlow {
+        width: 90%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 30px;
+    }
+    .expandlower {
+        width: 80%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 25px;
+    }
+        .ot
+{
+    text-align: center;
+    padding: 8px;
+    font-size: 30px;
+    color: black;
+    font-family: "Arimo-Regular";
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.btitled
+{
+    padding-top: 17px;
+    padding-bottom: 8px;
+     text-align: center;
+    border-bottom:  1px solid;
+    font-family: "MYRIADPRO-REGULAR";
+}
+.auth
+{
+     text-align: center;
+    padding: 8px;
+    font-size: 17px;
+    color: black;
+      font-family: "MYRIADPRO-LIGHT";
+}
+a.btitle
+{
+font-size: 20px;
+        font-family: "MYRIADPRO-REGULAR";
+    color: black;
+}
+a.btitle:hover
+{
+font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+  .but
+    {    margin-top: 22px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+    background-color: #333333;
+        color: #f2f2f2;
+        border: none;
+            font-family: "FUTURALIGHT";
+        font-size: 13px;
+        margin-bottom: 22px;
+    }
+            .base
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/base.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 170px;
+    background-size: contain;
+
+}
+.basetext
+{
+    text-align: center;
+    font-family: "OptimaLTStd";
+    font-size: 18px;
+    color: #f2f2f2;
+    margin-top: 55px; 
+}
+}
+@media only screen and (min-width: 570px) and (max-width: 767px) {
+            .symbol
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/loop_tablet.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    -ms-interpolation-mode: bicubic; 
+}
+.op
+{
+    background-color: black;
+    color: #f2f2f2;
+     font-family: "BebasNeueRegular";
+    padding: 3px 8px 3px 8px;
+    font-size: 13px;
+    text-align: center;
+}
+.mmntitle
+{
+ text-align: left;
+    padding-top: 9px;
+    padding-bottom: 4px;
+    font-size: 25px;
+     font-family: "Amaranth";
+    color:  black;
+}
+    .mmntext2
+{
+ text-align: left;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    font-size: 20px;
+    font-family: "FuturaStd-Book";
+    color:  black;
+    font-weight: 300;
+}
+.mmntext
+{
+ text-align: left;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    font-size: 15px;
+    font-family: "FuturaStd-Book";
+    color:  black;
+}
+        a.learn {
+        color: #ed1e79;
+        font-size: 18px;
+          font-family: "FuturaStd-Book";
+        text-decoration: underline;
+}  
+        a.learn:hover {
+        color: #ed1e79;
+        text-decoration: underline;
+}  
+        a.learn:visited {
+        color: #ed1e79;
+        text-decoration: underline;
+}
+    .more
+    {
+            padding-bottom: 100px;
+    } 
+    .mmnproduct
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/windmill.png);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    -ms-interpolation-mode: bicubic; 
+}
+            .expandlow {
+        width: 90%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 27px;
+    }
+    .expandlower {
+        width: 80%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 22px;
+    }
+            .ot
+{
+    text-align: center;
+    padding: 4px;
+    font-size: 25px;
+    color: black;
+    font-family: "Arimo-Regular";
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.btitled
+{
+    padding-top: 12px;
+    padding-bottom: 4px;
+     text-align: center;
+    border-bottom:  1px solid;
+    font-family: "MYRIADPRO-REGULAR";
+}
+.auth
+{
+     text-align: center;
+    padding: 4px;
+    font-size: 14px;
+    color: black;
+      font-family: "MYRIADPRO-LIGHT";
+}
+a.btitle
+{
+font-size: 16.5px;
+        font-family: "MYRIADPRO-REGULAR";
+    color: black;
+}
+a.btitle:hover
+{
+font-size: 16.5px;
+    color: black;
+    text-decoration: none;
+}
+  .but
+    {    margin-top: 20px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+    background-color: #333333;
+        color: #f2f2f2;
+        border: none;
+            font-family: "FUTURALIGHT";
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+                .base
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/base.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130px;
+    background-size: contain;
+
+}
+.basetext
+{
+    text-align: center;
+    font-family: "OptimaLTStd";
+    font-size: 13px;
+    color: #f2f2f2;
+    margin-top: 35px; 
+}
+}
+@media only screen and (max-width: 569px) {
+            .symbol
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/loop_small.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    background-size: contain;
+    -ms-interpolation-mode: bicubic; 
+}
+ .op
+{
+    background-color: black;
+    color: #f2f2f2;
+     font-family: "BebasNeueRegular";
+    padding: 3px 2px 3px 2px;
+    font-size: 8px;
+    text-align: center;
+}
+.mmntitle
+{
+ text-align: left;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    font-size: 19px;
+     font-family: "Amaranth";
+    color:  black;
+}
+    .mmntext2
+{
+ text-align: left;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    font-size: 15px;
+   font-family: "FuturaStd-Book";
+    color:  black;
+    font-weight: 200;
+}
+.mmntext
+{
+ text-align: left;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    padding-right: 2px;
+    font-size: 12px;
+   font-family: "FuturaStd-Book";
+    color:  black;
+}
+         a.learn {
+        color: #ed1e79;
+        font-size: 15px;
+          font-family: "FuturaStd-Book";
+        text-decoration: underline;
+}  
+        a.learn:hover {
+        color: #ed1e79;
+        font-size: 15px;
+        text-decoration: underline;
+}  
+        a.learn:visited {
+        color: #ed1e79;
+        font-size: 15px;
+        text-decoration: underline;
+}
+   
+        .more
+    {
+            padding-bottom: 80px;
+    } 
+    .mmnproduct
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/windmill.png);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+}  
+            .expandlow {
+        width: 90%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 22px;
+    }
+    .expandlower {
+        width: 80%;
+        text-align: center;
+        color: #000000;
+        font-family: "UniversLTStd";
+        font-size: 17px;
+    }
+                .ot
+{
+    text-align: center;
+    padding: 4px;
+    font-size: 17px;
+    color: black;
+    font-family: "Arimo-Regular";
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.btitled
+{
+    padding-top: 12px;
+    padding-bottom: 4px;
+     text-align: center;
+    border-bottom:  1px solid;
+    font-family: "MYRIADPRO-REGULAR";
+}
+.auth
+{
+     text-align: center;
+    padding: 4px;
+    font-size: 11px;
+    color: black;
+      font-family: "MYRIADPRO-LIGHT";
+}
+a.btitle
+{
+font-size: 13.5px;
+       font-family: "MYRIADPRO-REGULAR";
+    color: black;
+}
+a.btitle:hover
+{
+font-size: 13.5px;
+    color: black;
+    text-decoration: none;
+}
+  .but
+    {    margin-top: 15px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+    background-color: #333333;
+        color: #f2f2f2;
+        border: none;
+            font-family: "FUTURALIGHT";
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+                    .base
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/home/base.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    background-size: contain;
+
+}
+.basetext
+{
+    text-align: center;
+    font-family: "OptimaLTStd";
+    font-size: 10px;
+    color: #f2f2f2;
+    margin-top: 20px; 
+}
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .boxtop
+{
+ background-color: #cccccc;
+    height: 2px;
+}
+.boxbot
+{
+ background-color: #f2f2f2;
+    height: 2px;
+}
+    .bottomspace
+    {
+    height: 10px;
+    }
+}
+@media only screen and (min-width: 901px) {
+
+    .boxtop
+{
+ background-color: #cccccc;
+    height: 4px;
+}
+.boxbot
+{
+ background-color: #f2f2f2;
+    height: 4px;
+}
+    .bottomspace
+    {
+    height: 30px;
+    }
+}
+
+
+
+
+
+
+

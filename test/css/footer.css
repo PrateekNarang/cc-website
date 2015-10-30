@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/HelveticaNeueLTStd-Th.otf) format("truetype");
+}
+@font-face {
+    font-family: "OptimaLTStd";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/OptimaLTStd.otf) format("opentype");
+}
+@font-face {
+    font-family: "UniversLTStd";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/UniversLTStd.otf) format("opentype");
+}
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/fonts/Oswald-Regular.ttf) format("truetype");
+}
+.under
+{
+border-bottom: 1px solid #f2f2f2;
+}
+@media only screen and (max-width: 900px) {
+    .footer {
+        background-color: #151515;
+        width: 100%;
+       
+    }
+    .fheading {
+        font-size: 25px;
+        color: #f2f2f2;
+        text-align: center;
+        
+         font-family: "Oswald-Regular";
+    }
+    .ftext {
+        color: #f2f2f2;
+         font-family: "UniversLTStd";
+        font-size: 12px;
+        text-align: center;
+        
+        padding: 8px;
+    }
+    .fspace {
+        height: 25px;
+    }
+    .fmenu {
+        color: #f2f2f2;
+        text-align: center;
+        bottom: 5px;
+        font-size: 5px;
+    }
+}
+@media only screen and (min-width: 901px) {
+    .footer {
+        background-color: #151515;
+        width: 100%;
+       
+    }
+    .fheading {
+        font-size: 40px;
+        color: #f2f2f2;
+        text-align: center;
+        
+        font-family: "Oswald-Regular";
+    }
+    .ftext {
+        color: #f2f2f2;
+       font-family: "UniversLTStd";
+        font-size: 23px;
+        text-align: center;
+        padding-bottom: 30px; 
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fspace {
+        
+    }
+    .fmenu {
+        color: #f2f2f2;
+        text-align: center;
+        bottom: 5px;
+        font-size: 18px;
+    }
+}
+a.fhome:link {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.fhome:hover {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.fhome:visited {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a.fhome:active {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+a.fmenutext {
+    color: #f2f2f2;
+}
+a.fmenutext:hover {
+    color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px){
+    .base
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/images/home/base.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+
+}
+.basetext
+{
+    text-align: center;
+    font-family: "OptimaLTStd";
+    font-size: 25px;
+    color: #f2f2f2;
+    margin-top: 85px; 
+}
+}
+@media only screen and (min-width: 990px) and (max-width: 1199px) {
+        .base
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/images/home/base.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+    background-size: contain;
+
+}
+.basetext
+{
+    text-align: center;
+    font-family: "OptimaLTStd";
+    font-size: 22px;
+    color: #f2f2f2;
+    margin-top: 70px; 
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+            .base
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/images/home/base.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 170px;
+    background-size: contain;
+
+}
+.basetext
+{
+    text-align: center;
+    font-family: "OptimaLTStd";
+    font-size: 18px;
+    color: #f2f2f2;
+    margin-top: 55px; 
+}
+}
+
+@media only screen and (min-width: 570px) and (max-width: 767px) {
+                .base
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/images/home/base.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130px;
+    background-size: contain;
+
+}
+.basetext
+{
+    text-align: center;
+    font-family: "OptimaLTStd";
+    font-size: 13px;
+    color: #f2f2f2;
+    margin-top: 35px; 
+}}
+@media only screen and (max-width: 569px) {
+                    .base
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow/images/home/base.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    background-size: contain;
+
+}
+.basetext
+{
+    text-align: center;
+    font-family: "OptimaLTStd";
+    font-size: 10px;
+    color: #f2f2f2;
+    margin-top: 20px; 
+}}

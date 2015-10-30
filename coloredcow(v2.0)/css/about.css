@@ -1,0 +1,860 @@
+
+
+.ye
+{
+    background-color: #479671;
+    height: 40em;
+}
+.he
+{
+    height: 6em;
+}
+@font-face {
+  font-family: "UniversLTStd";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/UniversLTStd.otf) format("opentype");
+}
+@font-face {
+  font-family: "UniversLTStd-LightCn";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/UniversLTStd-LightCn.otf) format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/HelveticaNeueLTStd-Th.otf) format("truetype");
+}
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/Oswald-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "TimesLTStd-Roman";
+  src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/TimesLTStd-Roman.otf) format("opentype");
+}
+@font-face {
+    font-family: "BebasNeueRegular";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/BebasNeueRegular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Arimo-Regular";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/Arimo-Regular.ttf) format("truetype");
+}
+.menu
+{
+height: 5em;
+    background-color: white;
+    padding-top: 7px;
+    text-align: center;
+}
+.menu1
+{
+height: 2em;
+    background-color: white;
+    padding-top: 4px;
+    text-align: center;
+    font-family: UniversLTStd;
+}
+a.menutext
+{
+    color: black;}
+a.menutext:hover
+{
+color: black;
+}
+a.subtext
+{
+    color: black;}
+a.subtext:hover
+{
+color: black;
+    text-decoration: none;
+}
+
+.submenuspace
+{
+height: 1em;
+}
+.submenu
+{
+height: 2.5em;
+    background-color: white;
+    padding-top: 8px;
+    text-align: center;
+     transition: all 5s ease;
+}
+.dropdown
+{
+margin-left: 4.2vw;
+}
+#triangle-down {
+	width: 0; 
+	height: 0; 
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-top: 1em solid white;   
+}
+
+
+.cc
+{   
+    font-family: "HelveticaNeue";
+    font-size: 3.2em;
+    padding-top: 6px;
+    }
+a.cclink:link
+{
+    color: #f2f2f2;
+       text-decoration: none;
+}
+a.cclink:hover
+{
+color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:visited
+{
+color: #f2f2f2;
+    text-decoration: none;
+}
+a.cclink:active
+{
+color: #f2f2f2;
+    text-decoration: none;
+}
+
+.cast
+{
+    font-family: "Oswald-Regular";
+    font-size: 3em;
+    color: white;  
+    text-align: center;
+}
+.text
+{
+height:4.4em;
+    }
+.blank
+{
+height: 10em;
+}
+.grass
+{
+
+width: 100%;
+    position: absolute;
+    bottom:-115px;
+left: -2px;
+}
+.lable
+{
+padding-top: 4.6em;
+
+}
+
+#about {
+        left:6.2vw;position: absolute;
+}
+
+#about:hover {
+    left:6vw;
+}
+#aboutblog {
+    left:5.7vw;position: absolute;
+}
+
+#aboutblog:hover {
+    left:5.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) { 
+#triangle-down2 {
+	width: 0; 
+	height: 0; 
+	border-left: 1em solid transparent;
+	border-right: 1em solid transparent;
+	border-top: 1.5em solid  #006837;
+}
+.lowertraingle
+{
+height: 2em;
+}
+.afterlowertriangle
+{
+height: 3em;
+}
+    .aftergrass
+{
+height: 2em;
+}
+    
+
+.lowertext
+{
+background-color: #2b2c30;
+
+    padding: 20px 0;
+
+}
+
+.divtext
+{
+    color: #f2f2f2;
+    font-size: 13px;
+    font-family:  "TimesLTStd-Roman";
+    text-align: center;
+}
+    .afterbox
+{
+height: 7em;
+
+}
+}
+@media only screen and (min-width: 768px) {
+#triangle-down2 {
+	width: 0; 
+	height: 0; 
+	border-left: 1.7em solid transparent;
+	border-right: 1.7em solid transparent;
+	border-top: 2.5em solid  #006837;
+}
+.lowertraingle
+{
+height: 4em;
+}
+.afterlowertriangle
+{
+height: 7em;
+}
+    .aftergrass
+{
+height: 4em;
+}
+    
+.lowerspace
+{
+height: 4em;
+}
+.lowertext
+{
+background-color: #2b2c30;
+
+    padding: 40px 0;;
+
+}
+
+.divtext
+{
+    color: #f2f2f2;
+    font-size: 24px;
+    font-family:  "TimesLTStd-Roman";
+    text-align: center;
+}
+    .afterbox
+{
+height: 30em;
+
+}
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1260px) {
+    .aboutlogo
+{
+    background: #ab47bc url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/cc_logo.png);
+    background-position: 700px 50px;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;  
+}
+    
+.abtext
+{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 80px
+}
+.abwheel
+{
+background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/wheel1.jpg);
+    height: 400px;
+    width: 300px;
+        background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.ac
+{
+    font-family: "BebasNeueRegular";
+     color: #333333;
+    font-size: 45px;
+    letter-spacing: 1px;
+    -webkit-transition: letter-spacing 0.8s; /* For Safari 3.1 to 6.0 */
+    transition: letter-spacing 0.8s;
+    margin-bottom: 50px;
+}
+ .ac:hover
+{
+    letter-spacing: 13px;
+}
+hr.about
+{
+    border-top: 2.5px solid #333333;
+        margin-top: 30px;
+}
+.bwheel
+{
+font-size: 30px;
+    text-align: center;
+    font-family: "Arimo-Regular";
+    font-weight: 700;
+}
+.visionheader
+{
+        font-family: "BebasNeueRegular";
+     color: #333333;
+    font-size: 45px;
+            letter-spacing: 1px;
+            -webkit-transition: letter-spacing .8s; /* For Safari 3.1 to 6.0 */
+    transition: letter-spacing .8s;
+    margin-bottom: 50px;
+    margin-top: 65px;
+    text-align: center;
+}
+    .visionheader:hover
+    {
+      letter-spacing: 23px;
+    }
+.visiontext{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 30px;
+    padding-left: 180px;
+    padding-right: 180px;
+        margin-bottom: 65px;
+    text-align: center;
+}
+
+.aboutlogotext
+{
+    color: #fff;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+        margin-bottom: 85px;
+    margin-top: 85px;
+    text-align: center;
+
+}
+        .boxtop
+{
+ background-color: #cccccc;
+    height: 4px;
+}
+.boxbot
+{
+ background-color: #f2f2f2;
+    height: 4px;
+}
+}
+@media only screen and (min-width: 1138px) and (max-width: 1259px) {
+    .aboutlogo
+{
+    background: #ab47bc url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/cc_logo.png);
+    background-position: 600px 50px;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;  
+}
+    
+.abtext
+{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 80px
+}
+.abwheel
+{
+background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/wheel1.jpg);
+    height: 400px;
+    width: 300px;
+        background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.ac
+{
+    font-family: "BebasNeueRegular";
+     color: #333333;
+    font-size: 42px;
+            letter-spacing: 1px;
+            -webkit-transition: letter-spacing .8s; /* For Safari 3.1 to 6.0 */
+    transition: letter-spacing .8s;
+    margin-bottom: 50px;
+}
+ .ac:hover
+{
+    letter-spacing: 10px;
+}
+hr.about
+{
+    border-top: 2.5px solid #333333;
+        margin-top: 27px;
+}
+.bwheel
+{
+font-size: 30px;
+    text-align: center;
+    font-family: "Arimo-Regular";
+    font-weight: 700;
+}
+.visionheader
+{
+        font-family: "BebasNeueRegular";
+     color: #333333;
+    font-size: 40px;
+            letter-spacing: 1px;
+            -webkit-transition: letter-spacing .8s; /* For Safari 3.1 to 6.0 */
+    transition: letter-spacing .8s;
+    margin-bottom: 50px;
+    margin-top: 65px;
+    text-align: center;
+}
+    .visionheader:hover
+    {
+      letter-spacing: 20px;
+    }
+.visiontext{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 30px;
+    padding-left: 180px;
+    padding-right: 180px;
+        margin-bottom: 65px;
+    text-align: center;
+}
+.aboutlogotext
+{
+    color: #fff;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+        margin-bottom: 85px;
+    margin-top: 85px;
+    text-align: center;
+}
+            .boxtop
+{
+ background-color: #cccccc;
+    height: 4px;
+}
+.boxbot
+{
+ background-color: #f2f2f2;
+    height: 4px;
+}
+}
+@media only screen and (min-width: 955px) and (max-width: 1137px) {
+
+.abtext
+{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 50px
+}
+.abwheel
+{
+background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/wheel1.jpg);
+    height: 300px;
+    width: 200px;
+        background-size: contain;
+    background-repeat: no-repeat;   
+}
+.ac
+{
+    font-family: "BebasNeueRegular";
+     color: #333333;
+    font-size: 35px;
+            letter-spacing: 1px;
+            -webkit-transition: letter-spacing .8s; /* For Safari 3.1 to 6.0 */
+    transition: letter-spacing .8s;
+    margin-bottom: 30px;
+}
+ .ac:hover
+{
+    letter-spacing: 9px;
+}
+hr.about
+{
+    border-top: 2.0px solid #333333;
+        margin-top: 24px;
+}
+.bwheel
+{
+font-size: 25px;
+    text-align: center;
+    font-family: "Arimo-Regular";
+    font-weight: 600;
+}
+.visionheader
+{
+        font-family: "BebasNeueRegular";
+     color: #333333;
+    font-size: 35px;
+            letter-spacing: 1px;
+            -webkit-transition: letter-spacing .8s; /* For Safari 3.1 to 6.0 */
+    transition: letter-spacing .8s;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    text-align: center;
+}
+    .visionheader:hover
+    {
+      letter-spacing: 14px;
+    }
+.visiontext{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 25px;
+    padding-left: 110px;
+    padding-right: 110px;
+        margin-bottom: 45px;
+    text-align: center;
+}
+
+.aboutlogotext
+{
+    color: #fff;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 10px;
+        margin-bottom: 65px;
+    margin-top: 65px;
+    text-align: center;
+}
+        .aboutlogo
+{
+    background: #ab47bc url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/cc_logo.png);
+    background-position: 500px 70px;
+    background-size: 400px 250px;
+    background-repeat: no-repeat;  
+    -ms-interpolation-mode: bicubic;
+}
+            .boxtop
+{
+ background-color: #cccccc;
+    height: 2px;
+}
+.boxbot
+{
+ background-color: #f2f2f2;
+    height: 2px;
+}
+}
+@media only screen and (min-width: 828px) and (max-width: 954px) {
+.abtext
+{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 50px
+}
+.abwheel
+{
+background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/wheel1.jpg);
+    height: 300px;
+    width: 200px;
+        background-size: contain;
+    background-repeat: no-repeat;   
+}
+.ac
+{
+    font-family: "BebasNeueRegular";
+     color: #333333;
+    font-size: 25px;
+            letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+hr.about
+{
+    border-top: 1.5px solid #333333;
+        margin-top: 16px;
+}
+.bwheel
+{
+font-size: 20px;
+    text-align: center;
+    font-family: "Arimo-Regular";
+    font-weight: 600;
+}
+.visionheader
+{
+        font-family: "BebasNeueRegular";
+     color: #333333;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    text-align: center;
+}
+.visiontext{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.aboutlogotext
+{
+    color: #fff;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    text-align: center;
+}
+        .aboutlogo
+{
+    background: #ab47bc url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/cc_logo.png);
+    background-position: 400px 40px;
+    background-size: 310px 180px;
+    background-repeat: no-repeat;  
+    -ms-interpolation-mode: bicubic;
+}
+            .boxtop
+{
+ background-color: #cccccc;
+    height: 2px;
+}
+.boxbot
+{
+ background-color: #f2f2f2;
+    height: 2px;
+}
+}
+@media only screen and (min-width: 688px) and (max-width: 827px) {
+.abtext
+{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    
+}
+.abwheel
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/wheel1.jpg);
+    height: 250px;
+    width: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+.ac
+{
+    font-family: "BebasNeueRegular";
+    color: #333333;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+hr.about
+{
+    border-top: 1.5px solid #333333;
+    margin-top: 16px;
+}
+.bwheel
+{
+    font-size: 17px;
+    text-align: center;
+    font-family: "Arimo-Regular";
+    font-weight: 600;
+}
+.visionheader
+{
+    font-family: "BebasNeueRegular";
+    color: #333333;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.visiontext{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 18px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.aboutlogotext
+{
+    color: #fff;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+        .aboutlogo
+{
+    background: #ab47bc url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/logo_mid.png);
+    background-position: 370px 20px;
+    background-size: 250px 140px;
+    background-repeat: no-repeat;  
+    -ms-interpolation-mode: bicubic;
+}
+            .boxtop
+{
+ background-color: #cccccc;
+    height: 2px;
+}
+.boxbot
+{
+ background-color: #f2f2f2;
+    height: 2px;
+}
+}
+@media only screen and (max-width: 687px) {
+.abtext
+{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.abwheel
+{
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/wheel1.jpg);
+    height: 250px;
+    width: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+.ac
+{
+    font-family: "BebasNeueRegular";
+    color: #333333;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+hr.about
+{
+    border-top: 1.5px solid #333333;
+    margin-top: 8px;
+}
+.bwheel
+{
+    font-size: 13px;
+    text-align: center;
+    font-family: "Arimo-Regular";
+    font-weight: 600;
+}
+.visionheader
+{
+    font-family: "BebasNeueRegular";
+    color: #333333;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.visiontext{
+    color: #333333;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.aboutlogotext
+{
+    color: #fff;
+    font-family: "UniversLTStd-LightCn";
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+        .aboutlogo
+{
+    background: #ab47bc url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/about/logo_small.png);
+    background-position: 65% center;
+    background-size: 30% 70px;
+    background-repeat: no-repeat;  
+    -ms-interpolation-mode: bicubic; 
+}
+            .boxtop
+{
+ background-color: #cccccc;
+    height: 2px;
+}
+.boxbot
+{
+ background-color: #f2f2f2;
+    height: 2px;
+}
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .bottomspace
+    {
+    height: 10px;
+    }
+}
+@media only screen and (min-width: 901px) {
+
+    .bottomspace
+    {
+    height: 30px;
+    }
+
+}
+
