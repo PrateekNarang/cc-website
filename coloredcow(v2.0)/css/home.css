@@ -5,6 +5,16 @@
     background-repeat: no-repeat;
     height: 40em;
 }
+a
+{
+margin: 0px;
+    padding: 0px;
+}
+p
+{
+margin: 0px;
+    padding: 0px;
+}
 .he {
     height: 6em;
 }
@@ -169,29 +179,18 @@ a.cclink:active {
     src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/BebasNeueRegular.ttf) format("truetype");
 }
 @media only screen and (max-width: 900px) {
-    .expandside {
-        width: 10%;
-    }
     .expand {
-        width: 80%;
         text-align: center;
         color: #000000;
         font-family: "UniversLTStd";
-        font-size: 25px;
-    }
-        .expand:hover {
-letter-spacing: .3px;
+        font-size: 18px;
     }
     
     .star {
-        width: 50%;
         color: #000000;
-        font-size: 17px;
+        font-size: 15px;
         text-align: center;
         font-family: "OptimaLTStd";
-    }
-    .starside {
-        width: 25%;
     }
     .product {
         width: 80%;
@@ -229,11 +228,8 @@ letter-spacing: .3px;
     
 }
 @media only screen and (min-width: 901px) {
-    ..expandside {
-        width: 10%;
-    }
+
     .expand {
-        width: 80%;
         text-align: center;
         color: #000000;
         font-family: "UniversLTStd";
@@ -246,14 +242,10 @@ letter-spacing: .3px;
 letter-spacing: 5px;
     }
     .star {
-        width: 50%;
         color: #000000;
         font-size: 30px;
         text-align: center;
         font-family: "OptimaLTStd";
-    }
-    .starside {
-        width: 25%;
     }
     .product {
         width: 70%;
@@ -444,48 +436,8 @@ width: 20%;
     font-size: 35px;
     text-align: center;
 }
-.mmntitle
-{
- text-align: left;
-    padding-top: 10px;
-    font-size: 48px;
-     font-family: "Amaranth";
-       color:  black;
-}
-  .mmntext2
-{
- text-align: left;
-    padding-top: 30px; 
-    padding-right: 20px;
-    font-size: 38px;
-     font-family: "FuturaStd-Book";
-    color:  black;
-    font-weight: 300;
-}  
-.mmntext
-{
- text-align: left;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 20px;
-    font-size: 24px;
-     font-family: "FuturaStd-Book";
-    color:  black;
-}
-    a.learn {
-        color: #ed1e79;
-        font-size: 30px;
-          font-family: "FuturaStd-Book";
-        text-decoration: underline;
-}  
-        a.learn:hover {
-        color: #ed1e79;
-        text-decoration: underline;
-}  
-        a.learn:visited {
-        color: #ed1e79;
-        text-decoration: underline;
-}  
+
+
     .more
     {
             padding-bottom: 200px;
@@ -606,48 +558,8 @@ font-size: 24px;
     font-size: 15px;
     text-align: center;
 }
-.mmntitle
-{
- text-align: left;
-    padding-top: 32px;
-    font-size: 40px;
-     font-family: "Amaranth";
-    color:  black;
-}
-  .mmntext2
-{
- text-align: left;
-    padding-top: 20px; 
-    padding-right: 20px;
-    font-size: 32px;
-     font-family: "FuturaStd-Book";
-    color:  black;
-    font-weight: 300;
-}  
-    .mmntext
-{
-text-align: left;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    padding-right: 15px;
-    font-size: 20px;
- font-family: "FuturaStd-Book";
-    color:  black;
-}
-    a.learn {
-        color: #ed1e79;
-        font-size: 26px;
-          font-family: "FuturaStd-Book";
-        text-decoration: underline;
-}  
-        a.learn:hover {
-        color: #ed1e79;
-        text-decoration: underline;
-}  
-        a.learn:visited {
-        color: #ed1e79;
-        text-decoration: underline;
-}  
+
+
         .more
     {
             padding-bottom: 200px;
@@ -661,14 +573,12 @@ text-align: left;
     background-size: contain;
 }
         .expandlow {
-        width: 90%;
         text-align: center;
         color: #000000;
         font-family: "UniversLTStd";
         font-size: 35px;
     }
     .expandlower {
-        width: 80%;
         text-align: center;
         color: #000000;
         font-family: "UniversLTStd";
@@ -764,52 +674,8 @@ font-size: 24px;
     font-size: 11px;
     text-align: center;
 }
-.mmntitle
-{
- text-align: left;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 35px;
-     font-family: "Amaranth";
-    color:  black;
-}
-.mmntext
-{
- text-align: left;
-    padding-top: 6px;
-    padding-bottom: 10px;
-    padding-right: 12px;
-    font-size: 18px;
-   font-family: "FuturaStd-Book";
-    color:  black;
-}   
-.mmntext2
-{
- text-align: left;
-    padding-top: 6px;
-    padding-bottom: 10px;
-    padding-right: 12px;
-    font-size: 25px;
-   font-family: "FuturaStd-Book";
-    color:  black;
-        font-weight: 300;
-}
-    a.learn {
-        color: #ed1e79;
-        font-size: 20px;
-          font-family: "FuturaStd-Book";
-        text-decoration: underline;
-}  
-        a.learn:hover {
-        color: #ed1e79;
-        font-size: 20px;
-        text-decoration: underline;
-}  
-        a.learn:visited {
-        color: #ed1e79;
-        font-size: 20px;
-        text-decoration: underline;
-}  
+
+
         .more
     {
             padding-bottom: 130px;
@@ -823,14 +689,12 @@ font-size: 24px;
     background-size: contain;
 }
             .expandlow {
-        width: 90%;
         text-align: center;
         color: #000000;
         font-family: "UniversLTStd";
         font-size: 30px;
     }
     .expandlower {
-        width: 80%;
         text-align: center;
         color: #000000;
         font-family: "UniversLTStd";
@@ -925,50 +789,8 @@ font-size: 20px;
     font-size: 13px;
     text-align: center;
 }
-.mmntitle
-{
- text-align: left;
-    padding-top: 9px;
-    padding-bottom: 4px;
-    font-size: 25px;
-     font-family: "Amaranth";
-    color:  black;
-}
-    .mmntext2
-{
- text-align: left;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-right: 5px;
-    font-size: 20px;
-    font-family: "FuturaStd-Book";
-    color:  black;
-    font-weight: 300;
-}
-.mmntext
-{
- text-align: left;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-right: 5px;
-    font-size: 15px;
-    font-family: "FuturaStd-Book";
-    color:  black;
-}
-        a.learn {
-        color: #ed1e79;
-        font-size: 18px;
-          font-family: "FuturaStd-Book";
-        text-decoration: underline;
-}  
-        a.learn:hover {
-        color: #ed1e79;
-        text-decoration: underline;
-}  
-        a.learn:visited {
-        color: #ed1e79;
-        text-decoration: underline;
-}
+
+
     .more
     {
             padding-bottom: 100px;
@@ -983,14 +805,12 @@ font-size: 20px;
     -ms-interpolation-mode: bicubic; 
 }
             .expandlow {
-        width: 90%;
         text-align: center;
         color: #000000;
         font-family: "UniversLTStd";
         font-size: 27px;
     }
     .expandlower {
-        width: 80%;
         text-align: center;
         color: #000000;
         font-family: "UniversLTStd";
@@ -1009,15 +829,12 @@ font-size: 20px;
 .btitled
 {
     padding-top: 12px;
-    padding-bottom: 4px;
      text-align: center;
-    border-bottom:  1px solid;
     font-family: "MYRIADPRO-REGULAR";
 }
 .auth
 {
      text-align: center;
-    padding: 4px;
     font-size: 14px;
     color: black;
       font-family: "MYRIADPRO-LIGHT";
@@ -1085,52 +902,8 @@ font-size: 16.5px;
     font-size: 8px;
     text-align: center;
 }
-.mmntitle
-{
- text-align: left;
-    padding-top: 4px;
-    padding-bottom: 5px;
-    font-size: 19px;
-     font-family: "Amaranth";
-    color:  black;
-}
-    .mmntext2
-{
- text-align: left;
-    padding-top: 2px;
-    padding-bottom: 5px;
-    padding-right: 2px;
-    font-size: 15px;
-   font-family: "FuturaStd-Book";
-    color:  black;
-    font-weight: 200;
-}
-.mmntext
-{
- text-align: left;
-    padding-top: 2px;
-    padding-bottom: 1px;
-    padding-right: 2px;
-    font-size: 12px;
-   font-family: "FuturaStd-Book";
-    color:  black;
-}
-         a.learn {
-        color: #ed1e79;
-        font-size: 15px;
-          font-family: "FuturaStd-Book";
-        text-decoration: underline;
-}  
-        a.learn:hover {
-        color: #ed1e79;
-        font-size: 15px;
-        text-decoration: underline;
-}  
-        a.learn:visited {
-        color: #ed1e79;
-        font-size: 15px;
-        text-decoration: underline;
-}
+
+
    
         .more
     {
@@ -1145,14 +918,12 @@ font-size: 16.5px;
     background-size: contain;
 }  
             .expandlow {
-        width: 90%;
         text-align: center;
         color: #000000;
         font-family: "UniversLTStd";
         font-size: 22px;
     }
     .expandlower {
-        width: 80%;
         text-align: center;
         color: #000000;
         font-family: "UniversLTStd";
@@ -1171,15 +942,12 @@ font-size: 16.5px;
 .btitled
 {
     padding-top: 12px;
-    padding-bottom: 4px;
      text-align: center;
-    border-bottom:  1px solid;
     font-family: "MYRIADPRO-REGULAR";
 }
 .auth
 {
      text-align: center;
-    padding: 4px;
     font-size: 11px;
     color: black;
       font-family: "MYRIADPRO-LIGHT";
@@ -1227,8 +995,27 @@ font-size: 13.5px;
     margin-top: 20px; 
 }
 }
-
-
+.mmntitle
+{
+    padding-top: 1.5em;
+font-size: 2.9em;
+    color: #f7931e;
+    font-family: "Amaranth-Regular";
+}
+.mmntext2
+{
+font-size: 2.2em;
+}
+.mmntext
+{
+font-size: 1.45em;
+}
+a.learn
+{
+font-size: 1.45em;
+    color: #d4145a;
+    text-decoration: underline;
+}
 
 
 
@@ -1276,4 +1063,474 @@ font-size: 13.5px;
 
 
 
+
+@font-face {
+    font-family: 'Oswald-Light';
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/Oswald-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/Oswald-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'UniversLTStd';
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/UniversLTStd.otf) format('opentype');
+}
+@font-face {
+    font-family: 'UniversLTStd-Light';
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/UniversLTStd-Light.otf) format('opentype');
+}
+@font-face {
+    font-family: 'UniversLTStd-LightCn';
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/UniversLTStd-LightCn.otf) format('opentype');
+}
+@font-face {
+    font-family: 'UniversLTStd-LightCnObl';
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/UniversLTStd-LightCnObl.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'UniversLTStd-UltraCn';
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/UniversLTStd-UltraCn.otf) format('opentype');
+}
+@font-face {
+    font-family: 'UniversLTStd-Cn';
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/UniversLTStd-Cn.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Amaranth-Regular';
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/AMARANTH-REGULAR.OTF) format('opentype');
+}
+@font-face {
+    font-family: 'FuturaStd-Book';
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/FuturaStd-Book.otf) format('opentype');
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.flex-middle{
+    display: flex;
+    justify-content: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: black;
+}
+
+.line{
+    border-bottom: 2px solid white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.border-white{
+    border-bottom: 1px solid white;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.border-black{
+    border-bottom: 1px solid black;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.oswald-light{
+    font-family: 'Oswald-Light';
+}
+
+.oswald-medium{
+    font-family: 'Oswald-Medium';
+}
+
+.univers{
+    font-family: 'UniversLTStd';
+}
+
+.univers-light{
+    font-family: 'UniversLTStd-Light';
+}
+
+.univers-lightcn{
+    font-family: 'UniversLTStd-LightCn';
+}
+
+.univers-ultracn{
+    font-family: 'UniversLTStd-UltraCn';
+}
+
+.univers-ultracnob{
+    font-family: 'UniversLTStd-LightCnObl';
+}
+
+.univers-cn{
+    font-family: 'UniversLTStd-Cn';
+}
+
+.futura-book{
+    font-family: 'FuturaStd-Book';
+}
+
+.top-padding{
+    padding-top: 1em;
+}
+
+.top-margin{
+    margin-top: 2em;
+}
+
+.bottom-margin{
+    margin-bottom: 2em;
+}
+
+.remove-margin{
+    margin: 0;
+}
+
+.remove-padding{
+    padding: 0;
+}
+
+.font-grey{
+    color: #666;
+}
+
+.container{
+    width: 100%;
+}
+
+.blue-bg{
+    background: #1083ce;
+}
+
+.black-bg{
+    background: #151515;
+}
+
+.logo{
+    width: 70%;
+    margin-left: 1.6em;
+}
+
+.logo-padding{
+    padding: .7em 0;
+}
+
+.logo-text{
+    font-size: 2.5em;
+    color: white;
+}
+
+.logo-text-footer{
+    font-size: 2.5em;
+    color: white;
+    margin-top: 1em;
+}
+
+.nav-bg{
+     background: #f5f5f5;
+}
+
+.nav-row{
+    position: relative;
+}
+
+.nav-icon{
+    width: 25%;
+/*    margin: 1em auto;*/
+    margin-bottom: .2em;
+    position: absolute;
+    left: 6em;
+}
+
+.nav-icon-color{
+    left: 6.2em;
+}
+
+.nav-icon-color:hover{
+    left: 6em;
+}
+
+p1{
+    font-size: 1.3em;
+    display: block;
+}
+
+
+h1{
+    color: white;
+    font-size: 4.3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 2.9em;
+    margin-top: 1.3em;
+}
+
+
+.benefit-icon{
+    width: 70%;
+    margin: 0 auto;
+}
+
+p2{
+    font-size: 1.8em;
+    display: block;
+}
+
+h3{
+    font-size: 2.9em;
+}
+
+p{
+    font-size: 1.45em;
+}
+
+.row-grey{
+    background: #f2f2f2;
+    margin: 3em -15px;
+}
+
+.icon-large{
+    width: 100%;
+    margin: 1.3em auto;
+}
+
+.parent-center{
+    display: flex;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+
+.center{
+    align-items: center;
+}
+
+.loop{
+    width: 90%;
+    margin: 3em auto;
+}
+
+.letter-space{
+    letter-spacing: 3px;
+}
+
+.mmn{
+    font-size: 2.9em;
+    color: #f7931e;
+    font-family: 'Amaranth-Regular';
+}
+
+.windmill{
+    margin-top: -28em;
+    width: 100%;
+}
+
+h4{
+    font-size: 2.2em;
+}
+
+p3{
+    font-size: 1.45em;
+    color: #d4145a;
+    text-decoration: underline;
+}
+
+.inlining{
+    display: inline-block;
+    text-align: left;
+}
+
+.profile-img{
+    width: 60%;
+}
+
+.name{
+    font-size: 1.16em;
+}
+
+.subscript{
+    font-size: 1.3em;
+    color: #999;
+}
+
+.extra-margin{
+    margin-bottom: 3em;
+}
+
+#fld_4851371_1{
+    height: 3em;
+    border: 1px solid #999;
+    border-radius: .8em;
+}
+
+.send_me{
+    background-color:#d4145a;
+	-moz-border-radius:.8em;
+	-webkit-border-radius:.8em;
+	border-radius:.8em;
+	border:1px solid #d4145a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "FuturaStd-Book";
+	font-size:1.2em;
+	padding: .27em .7em;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #d4145a;
+}
+.avatar { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
+/*--------------------------------------------------Large-------------------------------------------------*/
+@media only screen and (min-width: 1200px) {
+
+    body{
+        font-size: 14px;
+    }
+
+}
+/*--------------------------------------------------medium-------------------------------------------------*/
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+    body{
+        font-size: 12px;
+    }
+
+    .nav-icon{
+        left: 5.4em;
+    }
+
+    .nav-icon-color{
+        left: 5.6em;
+    }
+
+    h2 {
+        margin-top: 1em;
+    }
+
+    .windmill {
+        margin-top: -26em;
+   }
+}
+
+/*--------------------------------------------------tablet-------------------------------------------------*/
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+    body{
+        font-size: 11px;
+    }
+
+    h2 {
+        margin-top: 1em;
+    }
+
+    .nav-icon{
+        left: 5em;
+    }
+
+    .nav-icon-color{
+        left: 5.2em;
+    }
+
+    .windmill {
+        margin-top: -25em;
+    }
+
+    .logo-text-footer {
+        margin-top: .5em;
+}
+}
+
+/*--------------------------------------------------phone-------------------------------------------------*/
+@media only screen and (max-width: 767px) and (min-width: 481px){
+
+    body{
+        font-size: 9px;
+    }
+    .text-center-xs{
+        text-align: center;
+    }
+    p{
+        margin-bottom: 0;
+    }
+    .windmill {
+        margin-top: -26em;
+}
+
+}
+
+/*--------------------------------------------------phone-------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+
+    body{
+        font-size: 8px;
+    }
+
+    h1{
+        margin-top: 1em;
+    }
+
+    h2{
+        margin-top: .8em;
+    }
+
+    h3{
+        margin-top: 10px;
+    }
+
+    p{
+        margin-bottom: 0;
+    }
+
+    .windmill {
+        margin-top: -13em;
+}
+    .no-padding-xxs{
+        padding: 0;
+    }
+
+    .loop{
+        width: 100%;
+    }
+    .logo-text-footer {
+        margin-top: .5em;
+    }
+
+    .logo {
+        width: 100%;
+        margin-top: .5em;
+    }
+    .logo-text{
+        margin-left: 1em;
+    }
+    .inlining {
+        text-align: center;
+}
+    .text-center-xs{
+        text-align: center;
+    }
+}
 

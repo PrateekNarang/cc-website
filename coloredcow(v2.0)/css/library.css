@@ -180,7 +180,7 @@ a.cclink:active {
 }
 @media only screen and (max-width: 900px) {
     .afterlowertriangle {
-        height: 5em;
+        height: 2em;
     }
     .aftercr {
         height: 2em;

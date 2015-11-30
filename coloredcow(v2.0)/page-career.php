@@ -1,10 +1,6 @@
 <?php get_header(); 
 
 ?>
-<title>Career</title>
-    </head>
-
-    <body <?php body_class(); ?>>
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 background">
@@ -265,17 +261,17 @@
                     meaningful stuff using technology 
                 or design, you can start early.</div>
                 <div class="botlink">
-                    Intern with us: <a href="#" class="link">Apply Here</a>
+                    Intern with us: <a href="<?php echo home_url( '/' ); ?>internship" target="_blank" class="link">Apply Here</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 botright">
                     <div class="bottext">We have had interns in the past 
                         who were bright when they came 
                         but brighter when they left. Read about their journey.</div>
-                    <div class="botlink"><a href="#" class="link">Learn More</a></div>
+                    <div class="botlink"><a href="<?php echo home_url( '/' ); ?>interns" target="_blank" class="link">Learn More</a></div>
                     
                 </div>
             </div>
                 </div>
             </div>
-<?php get_footer();?> 
+<?php get_footer();?>

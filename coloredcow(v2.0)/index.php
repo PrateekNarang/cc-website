@@ -1,7 +1,5 @@
 <?php get_header(); ?>
-   <title>Blog</title>
-    </head>
-<body>
+
 
 
 
@@ -200,92 +198,28 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aftergrass">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                    <div class="lowertriangle" id="triangle-down2">
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-                    </div>
-                </div>
-            </div>
-                        <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 afterlowertriangle">
-                </div>
-            </div>
+
+
 
 
 
                         
                  <div class="row-fluid">
                        <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-1">
-                                    <div class="row-fluid">
-                                       <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs">
-                                          
-                                               <div class="row">
-                                          <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs jobtop" >
-                                              Books we are reading
-                                          </div>
-                                           </div>
-                                              <div class="row">   
-                  <?php  
-                        $lastBlog = new WP_Query('type=post&posts_per_page=5&category_name=books');
-                         if($lastBlog->have_posts()):
-                        while ($lastBlog->have_posts()): $lastBlog->the_post(); ?>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1">
 
-                                    <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs joblow" style="padding:0px;">
-                                     <center><?php the_title(); ?>
-                                         </center>
-                                    </div>
-                             <?php endwhile;
-		              endif;
-                        ?>  
-            </div>      
-                                          <div class="row">
-                                              <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs joblink">
-                                                  <a href="<?php echo home_url( '/' ); ?>library" class="jobs">why we want you<br>to see the full list</a>
-                                          </div>
-                                           </div>
-                                          <div class="row">
-                                              <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="height:50px;">
-                                                
-                                          </div>
-                                           </div>
-                                          
-                                          <div class="row">
-                                          <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs jobtop" >
-                                              If you are looking for<br>more than a job
-                                          </div>
-                                           </div>
-                                              <div class="row">
-                                              <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
-                                              <div class="col-lg-10 col-md-10 col-sm-10 hidden-xs batman" >
-                                          </div>
-                                            <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
-                                           </div>
-                                                  <div class="row">
-                                              <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs joblow">
-                                              There are other ways<br>to be batman
-                                          </div>
-                                           </div>
-                                          <div class="row">
-                                              <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs joblink">
-                                                  <a href="<?php echo home_url( '/' ); ?>career" class="jobs">find out</a>
-                                          </div>
-                                           </div>
-                                        </div>
-                                        </div>
                                     </div>
                                     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-10">
+
                                                                           <?php  $j=0;
-                                    query_posts($query_string . '&cat=-17');
+                                    query_posts($query_string . '&cat=-12');
 									if (have_posts()):
 									while ( have_posts() ): the_post(); 
 
 ?>
                                         <div class="row">
+                                        <div class="col-lg-1 col-md-1 col-sm-1">
+                                            </div>
                                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                                         <div class="bgtext" style="background:<?php
                                                  if($j==0):
@@ -316,6 +250,8 @@
                                         </div>
                                         <br>
                                                                         <div class="row">
+                                                                         <div class="col-lg-1 col-md-1 col-sm-1">
+                                            </div>
                                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                                         <div class="blogtext">
                                     <?php the_excerpt();?>
@@ -323,6 +259,8 @@
                                       </div>
                                         </div>
                                   <div class="row">
+                                       <div class="col-lg-1 col-md-1 col-sm-1">
+                                            </div>
                                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">       
                                <a href="<?php the_permalink(); ?>" class="bgtextl" style="color:<?php
                                                  if($j==0):
@@ -356,7 +294,70 @@
                                    
                                    
                                     </div>
-                                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-1">
+                                    <div class="row-fluid">
+                                       <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs">
+
+                                               <div class="row">
+                                          <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs jobtop" >
+                                                   <div class="row">
+                                          <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs jobwhite" >
+                                              Books we are reading
+                                          </div>
+                                           </div>
+                                             </div>
+                                           </div>
+                                              <div class="row">
+                  <?php
+                        $lastBlog = new WP_Query('type=post&posts_per_page=5&category_name=books');
+                         if($lastBlog->have_posts()):
+                        while ($lastBlog->have_posts()): $lastBlog->the_post(); ?>
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs joblow" style="padding:0px;">
+                                     <center><?php the_title(); ?>
+                                         </center>
+                                    </div>
+                             <?php endwhile;
+		              endif;
+                        ?>
+            </div>
+                                          <div class="row">
+                                              <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs joblink">
+                                                  <a href="<?php echo home_url( '/' ); ?>library" class="jobs">why we want you<br>to see the full list</a>
+                                          </div>
+                                           </div>
+                                          <div class="row">
+                                              <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs" style="height:50px;">
+
+                                          </div>
+                                           </div>
+                                             <div class="row">
+                                          <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs jobtop" >
+                                                   <div class="row">
+                                          <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs jobwhite" >
+                                              If you are looking for<br>more than a job
+                                          </div>
+                                           </div>
+                                             </div>
+                                           </div>
+                                              <div class="row">
+                                              <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
+                                              <div class="col-lg-10 col-md-10 col-sm-10 hidden-xs batman" >
+                                          </div>
+                                            <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
+                                           </div>
+                                                  <div class="row">
+                                              <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs joblow">
+                                              There are other ways<br>to be batman
+                                          </div>
+                                           </div>
+                                          <div class="row">
+                                              <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs joblink">
+                                                  <a href="<?php echo home_url( '/' ); ?>career" class="jobs">find out</a>
+                                          </div>
+                                           </div>
+                                        </div>
+                                        </div>
                                     </div>
                         </div>
                 </div>
@@ -365,5 +366,6 @@
                 
                 </div>
             </div>
+
     
 <?php get_footer();?>

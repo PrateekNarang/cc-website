@@ -2,17 +2,16 @@
 
 ?>
 
-<title><?php if (have_posts()):	while ( have_posts() ): the_post();  echo the_title(); ?> </title>
-   <meta property="og:url"           content="<?php echo get_permalink();?>" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="<?php echo the_title();?>" />
-    <meta property="og:description"   content="<?php echo the_excerpt();?>" />
 
-<?php endwhile; endif; ?>
-    </head>
 
-    <body <?php body_class(); ?>>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 background">
@@ -215,7 +214,7 @@
            
            
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs alr">
+                <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs alr">
                     <div class="row">
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 also">
                             Also Read
@@ -249,7 +248,7 @@ endif;
 
        </div>
                 </div>
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 
                
                   <?php  
@@ -257,10 +256,10 @@ endif;
 									while ( have_posts() ): the_post(); ?>
                
    <div class="row">    
-      <div class="col-xs-1">
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
        </div>
 
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-10  bgt">
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-10  bgt">
                                         <div class="bgtext inner"><?php the_title(); ?></div>
                         </div>
 
@@ -268,7 +267,7 @@ endif;
                                 <div class="row">
                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
                         </div>
-                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-10">
                             <div class="blogtext">
                             <br>
                             <?php the_content();
@@ -279,6 +278,9 @@ endif;
                             </div>
                      
                         </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                   <div class="fb-share-button" data-href="<?php the_permalink(); ?>" data-layout="box_count"></div>
+                                    </div>
                     </div>
      </div>
 
@@ -314,7 +316,7 @@ endif;
 
               <div class="row">
                                            <?php
-                            $lastBlog = new WP_Query('type=post&posts_per_page=4');
+                            $lastBlog = new WP_Query('type=post&posts_per_page=4&cat=-12');
                             if($lastBlog->have_posts()):
                             while ($lastBlog->have_posts()): $lastBlog->the_post(); ?>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blogpad">

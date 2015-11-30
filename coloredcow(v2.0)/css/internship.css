@@ -1,14 +1,14 @@
 @font-face {
     font-family: "HelveticaNeueLTStd-LtCn";
-    src: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/fonts/HelveticaNeueLTStd-LtCn.otf) format("opentype");
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/HelveticaNeueLTStd-LtCn.otf) format("opentype");
 }
 @font-face {
     font-family: "FuturaStd-Book";
-    src: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/fonts/FuturaStd-Book.otf) format("opentype");
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/FuturaStd-Book.otf) format("opentype");
 }
 @font-face {
     font-family: "Arimo-Regular";
-    src: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/fonts/Arimo-Regular.ttf) format("truetype");
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/Arimo-Regular.ttf) format("truetype");
 }
 @media only screen and (max-width: 900px) {
 .cc
@@ -30,7 +30,7 @@
     }
         .cover
 {
-    background: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/images/interns/1.jpg);
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/interns/1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
@@ -38,7 +38,7 @@
     background-size: contain;
 }
     .formbgpic{
-     background: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/images/interns/2.jpg);
+     background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/interns/2.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     width: 100%;
@@ -129,7 +129,7 @@
     }
         .cover
 {
-    background: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/images/interns/1.jpg);
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/interns/1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
@@ -137,7 +137,7 @@
     background-size: contain;
 }
     .formbgpic{
-     background: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/images/interns/2.jpg);
+     background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/interns/2.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     width: 100%;

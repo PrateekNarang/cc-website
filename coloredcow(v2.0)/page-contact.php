@@ -1,10 +1,7 @@
 <?php get_header(); 
 
 ?>
-<title>Contact</title>
-    </head>
 
-    <body <?php body_class(); ?>>
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 background">
@@ -324,4 +321,4 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 afterlowertriangle">
                 </div>
             </div>
-<?php get_footer();?> 
+<?php get_footer();?>

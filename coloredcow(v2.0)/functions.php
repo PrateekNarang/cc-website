@@ -75,6 +75,23 @@
     }
     
     add_action('wp_enqueue_scripts', 'cc_script_enqueue');
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
+
+function add_googleanalytics() {
+    $script="<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ ga('create', 'UA-69812503-1', 'auto');
+ ga('send', 'pageview');
+</script>";
+        echo $script;
+ }
+add_action('wp_footer', 'add_googleanalytics');
 
 ?>

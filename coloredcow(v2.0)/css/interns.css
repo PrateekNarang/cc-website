@@ -1,14 +1,14 @@
 @font-face {
     font-family: "HelveticaNeueLTStd-LtCn";
-    src: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/fonts/HelveticaNeueLTStd-LtCn.otf) format("opentype");
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/HelveticaNeueLTStd-LtCn.otf) format("opentype");
 }
 @font-face {
     font-family: "FuturaStd-Book";
-    src: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/fonts/FuturaStd-Book.otf) format("opentype");
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/FuturaStd-Book.otf) format("opentype");
 }
 @font-face {
     font-family: "Arimo-Regular";
-    src: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/fonts/Arimo-Regular.ttf) format("truetype");
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/Arimo-Regular.ttf) format("truetype");
 }
 @media only screen and (max-width: 900px) {
 .cc
@@ -34,7 +34,7 @@
     }
         .cover
 {
-    background: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/images/interns/one.jpg);
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/interns/one.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
@@ -55,7 +55,7 @@
     {
     margin-top: 9px;
     border: 0;
-    border-top: 1px solid #000;
+    border-top: 2px solid #000;
     }
 .sum
     {
@@ -68,7 +68,7 @@
     .tho
     {
     text-align: center;
-        font-size: 18px;
+        font-size: 17px;
         font-family: "FuturaStd-Book";
         font-weight: normal;
         color: #000;
@@ -257,7 +257,7 @@ border: 2px solid #2BB673  ;
     }
         .cover
 {
-    background: url(http://localhost/wordpress/wp-content/themes/coloredcow%28v2.0%29/images/interns/one.jpg);
+    background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/interns/one.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;

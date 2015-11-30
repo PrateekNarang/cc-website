@@ -39,6 +39,10 @@ color: black;
     font-family: "UniversLTStd";
     src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/UniversLTStd.otf) format("opentype");
 }
+@font-face {
+    font-family: "MYRIADPRO-SEMIBOLD";
+    src: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/fonts/MYRIADPRO-SEMIBOLD.OTF) format("opentype");
+}
 .menu {
     height: 5em;
     background-color: white;
@@ -221,17 +225,14 @@ a.cclink:active {
         background-color: #ad4a29;
         
     }
-    .bgt {
-        background-color: #f66c3d;
-       
-    }
+
     .bgtext {
         
-        text-align: center;
-        color: #f2f2f2;
+        text-align: left;
+        color: black;
         font-size: 20px;
-        font-family: "FUTURALIGHT";
-        padding: 10px;
+            font-family: "MYRIADPRO-SEMIBOLD";
+        line-height: 1.25em;
     }
     .circle {
         display: block;
@@ -276,6 +277,7 @@ a.cclink:active {
         color: #000000;
         font-size: 15px;
         font-family: "FUTURALIGHT";
+        line-height: 1.25em;
     }
         .blankspace
     {
@@ -337,17 +339,12 @@ a.cclink:active {
         background-color: #ad4a29;
         
     }
-    .bgt {
-        background-color: #f66c3d;
-       
-    }
     .bgtext {
        
-        text-align: center;
-        color: #f2f2f2;
-        font-size: 40px;
-        font-family: "FUTURALIGHT";
-        padding: 20px;
+        text-align: left;
+        color: black;
+        font-size: 30px;
+            font-family: "MYRIADPRO-SEMIBOLD";
     }
     .circle {
         display: block;
@@ -395,6 +392,7 @@ a.cclink:active {
         color: #000000;
         font-size: 20px;
         font-family: "FUTURALIGHT";
+        line-height: 1.25em;
     }
     .blankspace
     {

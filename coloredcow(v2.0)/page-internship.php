@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-   <title>Internship</title>
-    </head>
-<body>
  <div class="container-fluid">
         <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cc">
@@ -22,18 +19,18 @@
             </div>
      </div>
               <div class="row-fluid">
-                  <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
+                  <div class="col-lg-2 col-md-2 col-sm-1 hidden-xs">
                   </div>
                   <div class="col-lg-2 col-md-2 col-sm-3 hidden-xs" style="padding:0px; margin:0px;">
                       <hr class="line">
                   </div>
-               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 il" style="padding:0px; margin:0px;">
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 il" style="padding:0px; margin:0px;">
                      College's out but learning is on!
               </div>
                  <div class="col-lg-2 col-md-2 col-sm-3 hidden-xs" style="padding:0px; margin:0px;">
                             <hr class="line">  
                </div>  
-               <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
+               <div class="col-lg-2 col-md-2 col-sm-1 hidden-xs">
                   </div>
             </div>                              
                     <div class="row">
@@ -123,7 +120,7 @@
                                  <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
                                  <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 trance" style="padding:10px;">
                               <?php //echo Caldera_Forms::render_form('CF55bda1e099dac'); ?>
-                           <?php echo Caldera_Forms::render_form('CF5624813cf12b6'); ?>
+                           <?php echo Caldera_Forms::render_form('CF5624c9fcf1542'); ?>
                                  </div>
                                 <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
                                 </div>

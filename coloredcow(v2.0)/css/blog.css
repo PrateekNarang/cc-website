@@ -292,12 +292,17 @@ font-size: 13px;
 }
     .jobtop
 {
-    background-color: lightgray;
+
     border-bottom: 2px solid black;
     text-align: center;
-    font-size: 20px;
-    padding: 10px;
+
     font-family: "MYRIADPRO-BOLD";
+}
+    .jobwhite{
+border-bottom: 2px solid white;
+         background-color: lightgray;
+            font-size: 15px;
+    padding: 10px;
 }
 .batman
 {
@@ -311,7 +316,7 @@ font-size: 13px;
 .joblow
 {
     text-align: center;
-    font-size: 20px;
+    font-size: 13px;
     padding: 10px;
     font-family: "MYRIADPRO-IT";
 }
@@ -319,7 +324,7 @@ font-size: 13px;
 {
     border-bottom: 2px solid black;
     text-align: center;
-    font-size: 20px;
+    font-size: 13px;
     padding: 10px;
     padding-top: 0px;
     font-family: "MYRIADPRO-REGULAR";
@@ -475,13 +480,19 @@ font-size: 17px;
 }
 .jobtop
 {
-background-color: lightgray;
+
     border-bottom: 2px solid black;
     text-align: center;
-    font-size: 25px;
-    padding: 10px;
+
     font-family: "MYRIADPRO-BOLD";
 }
+    .jobwhite
+    {
+    border-bottom: 4px solid white;
+      background-color: lightgray;
+            font-size: 18px;
+    padding: 10px;
+    }
 .batman
 {
  background: url(http://coloredcow.in/wp/wp-content/themes/coloredcow%28v2.0%29/images/blog/batman.png);
@@ -494,7 +505,7 @@ background-color: lightgray;
 .joblow
 {
     text-align: center;
-    font-size: 25px;
+    font-size: 16px;
     padding: 10px;
     font-family: "MYRIADPRO-IT";
 }
@@ -502,7 +513,7 @@ background-color: lightgray;
 {
     border-bottom: 2px solid black;
     text-align: center;
-    font-size: 25px;
+    font-size: 16px;
     padding: 10px;
     padding-top: 0px;
     font-family: "MYRIADPRO-REGULAR";

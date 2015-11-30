@@ -1,12 +1,6 @@
 <?php get_header(); 
 
 ?>
-<title>Services</title>
-    </head>
-
-    <body <?php body_class(); ?>>
-        
-
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 background">

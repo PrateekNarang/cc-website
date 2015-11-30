@@ -1,10 +1,6 @@
 <?php get_header(); 
 
 ?>
-<title>About</title>
-    </head>
-
-    <body <?php body_class(); ?>>
         
 
         <div class="container-fluid">

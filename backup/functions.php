@@ -20,20 +20,18 @@
         wp_register_style( 'library-style-1', get_stylesheet_directory_uri() . '/css/library.css', array(), '1', 'all' );
         wp_register_style( 'library-style-2', get_stylesheet_directory_uri() . '/css/librarynew.css', array(), '1', 'all' );
         wp_register_style( 'intern-style-1', get_stylesheet_directory_uri() . '/css/interns.css', array(), '1', 'all' );
+        wp_register_style( 'internship-style-1', get_stylesheet_directory_uri() . '/css/internship.css', array(), '1', 'all' );
         wp_register_script('header-images', get_template_directory_uri().'/js/new.js', array('jquery'), '', TRUE);
         wp_register_script('contact-js', get_template_directory_uri().'/js/contact.js', array('jquery'), '', TRUE);
         wp_register_script('batman', get_template_directory_uri().'/js/batman.js', array('jquery'), '', TRUE);
-
-
-        
         wp_enqueue_style('bootstrap-style');
         wp_enqueue_style('footer-style');
         wp_enqueue_script('bootstrap-script');
         wp_enqueue_script('header-images');
-        
-        if ( is_page('333')) { 
+
+        if ( is_page('333')) {
             wp_enqueue_style('home-style-1');
-            wp_enqueue_style('home-style-2'); 
+            wp_enqueue_style('home-style-2');
         }
         if ( is_home()) {
             wp_enqueue_style('blog-style-1');
@@ -68,9 +66,28 @@
         if (is_page('447')){
             wp_enqueue_style('intern-style-1');
         }
+       if (is_page('452')){
+            wp_enqueue_style('internship-style-1');
+        }
     }
-    
-    add_action('wp_enqueue_scripts', 'cc_script_enqueue');
 
+    add_action('wp_enqueue_scripts', 'cc_script_enqueue');
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+function add_googleanalytics() {
+    $script="<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ ga('create', 'UA-69812503-1', 'auto');
+ ga('send', 'pageview');
+</script>";
+        echo $script;
+ }
+add_action('wp_footer', 'add_googleanalytics');
 
 ?>

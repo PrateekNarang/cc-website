@@ -9,7 +9,7 @@
                   var innerwidth = $(".edu").innerWidth();
              var sidespace=(outerwidth-innerwidth)/2.0;
             $(".edu").css("left", sidespace);
-                  var innerwidth = $(".blog").innerWidth();
+                  var innerwidth = $("#blog").innerWidth();
              var sidespace=(outerwidth-innerwidth)/2.0;
             $(".blog").css("left", sidespace);
                    var innerwidth = $(".career").innerWidth();
@@ -217,7 +217,7 @@
                   var innerwidth = $(".edu").innerWidth();
              var sidespace=(outerwidth-innerwidth)/2.0;
             $(".edu").css("left", sidespace);
-                  var innerwidth = $(".blog").innerWidth();
+                  var innerwidth = $("#blog").innerWidth();
              var sidespace=(outerwidth-innerwidth)/2.0;
             $(".blog").css("left", sidespace);
                   var innerwidth = $(".career").innerWidth();

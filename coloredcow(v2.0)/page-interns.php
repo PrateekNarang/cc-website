@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-   <title>Interns</title>
-    </head>
-<body>
  <div class="container-fluid">
         <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cc">
@@ -11,13 +8,13 @@
         <div class="row-fluid">
                   <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
                   </div>
-                  <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" style="padding:0px; margin:0px;">
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-xs-2" style="padding:0px; margin:0px;">
                       <hr class="line">
                   </div>
-               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 il" style="padding:0px; margin:0px;">
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 il" style="padding:0px; margin:0px;">
                      Intern Lounge
               </div>
-                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" style="padding:0px; margin:0px;">
+                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-2" style="padding:0px; margin:0px;">
                             <hr class="line">  
                </div>  
                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
@@ -39,13 +36,13 @@
         <div class="row-fluid">
                   <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
                   </div>
-                  <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" style="padding:0px; margin:0px;">
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-xs-2" style="padding:0px; margin:0px;">
                       <hr class="lineo">
                   </div>
-               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 oi" style="padding:0px; margin:0px;">
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 oi" style="padding:0px; margin:0px;">
                     OUR INTERNS
               </div>
-                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" style="padding:0px; margin:0px;">
+                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-2" style="padding:0px; margin:0px;">
                             <hr class="lineo">  
                </div>  
                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
@@ -325,13 +322,13 @@
             <div class="row-fluid">
                   <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
                   </div>
-                  <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" style="padding:0px; margin:0px;">
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-xs-2" style="padding:0px; margin:0px;">
                       <hr class="lineo">
                   </div>
-               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 oi" style="padding:0px; margin:0px;">
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 oi" style="padding:0px; margin:0px;">
                     LEARN MORE
               </div>
-                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3" style="padding:0px; margin:0px;">
+                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-2" style="padding:0px; margin:0px;">
                             <hr class="lineo">  
                </div>  
                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
@@ -347,9 +344,9 @@
                   <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1">
                   </div>
                   <div class="col-lg-4 col-md-6 col-sm-8 col-xs-10" >
-                  <div id="checkoutbutton">
-<button type="button" id="checkoutbutton">Apply Here</button>
-</div>
+                  <a href="<?php echo home_url( '/' ); ?>internship" style="text-decoration:none;"><div id="checkoutbutton">
+                      <div style="color:black;text-decoration:none;">Apply Here</div>
+                      </div></a>
               </div>
                  <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1">
                   </div>                                      

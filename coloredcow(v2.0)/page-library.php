@@ -1,10 +1,7 @@
 <?php get_header(); 
 
 ?>
-<title>Library</title>
-    </head>
 
-    <body <?php body_class(); ?>>
 
         <div class="container-fluid">
             <div class="row">
@@ -218,7 +215,7 @@ of what we&#8217;re reading and to give you a chance to connect with us if you l
                        </div>
             </div>
   
-            <div class="row">
+            <div class="row-fluid">
                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
                <div class="row">   
@@ -264,22 +261,7 @@ of what we&#8217;re reading and to give you a chance to connect with us if you l
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1">
                        </div>
             </div>
-                  
-                   <div class="row">
-                                  <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs">
-                       </div>
-                                   <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                                                        <div class="blogtext" style="text-align:center;">
-          <br>
-                                                            <u><i>Talk to us. About book or any other thing.</i></u>
-                                                            <br>
-                                                            <br>
-                                                            <br>
-                            </div>
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs">
-                       </div>
-            </div>
+
            
       
             
